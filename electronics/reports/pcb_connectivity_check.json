@@ -1,0 +1,25 @@
+{
+  "date_utc": "2026-10-02T17:16:30.608136+00:00",
+  "manifest_pin_mappings_checked": 137,
+  "mismatches": [],
+  "component_count": 39,
+  "pcb_footprints": 45,
+  "copper_layers": 2,
+  "track_segments": 622,
+  "plated_vias": 87,
+  "board_mm": {
+    "x_min": 4,
+    "x_max": 104,
+    "y_min": 3.5,
+    "y_max": 116,
+    "corner_radius": 6
+  },
+  "rules_mm": {
+    "minimum_track_width": 0.2,
+    "minimum_clearance": 0.2,
+    "minimum_copper_edge": 0.5,
+    "via_diameter": 0.6,
+    "via_drill": 0.3
+  },
+  "release_status": "Engineering prototype; physical fit, custom footprint, RF and power gates open"
+}

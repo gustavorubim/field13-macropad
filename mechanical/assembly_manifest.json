@@ -1,0 +1,1681 @@
+[
+  {
+    "name": "_1_Base_shell",
+    "label": "01 Base shell",
+    "mesh": "mechanical/mesh/_1_Base_shell.stl",
+    "role": "printable / GF-ABS or PETG",
+    "color": [
+      0.8199999928474426,
+      0.8399999737739563,
+      0.7900000214576721,
+      0.0
+    ],
+    "volume_mm3": 49761.4782114967,
+    "valid": true,
+    "solids": 1,
+    "bounds": [
+      -1.7763568394002505e-15,
+      -1.7763568394002505e-15,
+      0.0,
+      108.0,
+      122.0,
+      17.2
+    ]
+  },
+  {
+    "name": "_3_Switch_plate",
+    "label": "03 Switch plate",
+    "mesh": "mechanical/mesh/_3_Switch_plate.stl",
+    "role": "printable plate / 1.5 mm switch retention",
+    "color": [
+      0.6399999856948853,
+      0.6800000071525574,
+      0.6600000262260437,
+      0.0
+    ],
+    "volume_mm3": 16529.897769688727,
+    "valid": true,
+    "solids": 1,
+    "bounds": [
+      2.6499999999999986,
+      2.6499999999999986,
+      13.8,
+      105.35000000000001,
+      119.35000000000001,
+      18.7
+    ]
+  },
+  {
+    "name": "_2_Main_PCB_envelope",
+    "label": "02 Main PCB envelope",
+    "mesh": "mechanical/mesh/_2_Main_PCB_envelope.stl",
+    "role": "mechanical envelope; final KiCad source authoritative",
+    "color": [
+      0.03500000014901161,
+      0.1899999976158142,
+      0.17000000178813934,
+      0.0
+    ],
+    "volume_mm3": 17024.026948845578,
+    "valid": true,
+    "solids": 1,
+    "bounds": [
+      4.0,
+      3.5,
+      12.0,
+      104.0,
+      116.0,
+      13.6
+    ]
+  },
+  {
+    "name": "Switch_01",
+    "label": "Switch 01",
+    "mesh": "mechanical/mesh/Switch_01.stl",
+    "role": "MX-compatible envelope",
+    "color": [
+      0.07000000029802322,
+      0.07999999821186066,
+      0.07500000298023224,
+      0.0
+    ],
+    "volume_mm3": 1835.2729632679498,
+    "valid": true,
+    "solids": 1,
+    "bounds": [
+      36.25,
+      29.25,
+      13.6,
+      51.75,
+      44.75,
+      25.9
+    ]
+  },
+  {
+    "name": "Hotswap_01",
+    "label": "Hotswap 01",
+    "mesh": "mechanical/mesh/Hotswap_01.stl",
+    "role": "Kailh socket envelope; check footprint drawing",
+    "color": [
+      0.10999999940395355,
+      0.0949999988079071,
+      0.07999999821186066,
+      0.0
+    ],
+    "volume_mm3": 266.2247779607693,
+    "valid": true,
+    "solids": 1,
+    "bounds": [
+      37.0,
+      30.1,
+      9.0,
+      51.0,
+      36.5,
+      12.0
+    ]
+  },
+  {
+    "name": "Keycap_01",
+    "label": "Keycap 01",
+    "mesh": "mechanical/mesh/Keycap_01.stl",
+    "role": "standard 1U purchased keycap envelope",
+    "color": [
+      0.46000000834465027,
+      0.7300000190734863,
+      0.6600000262260437,
+      0.0
+    ],
+    "volume_mm3": 1493.500197886557,
+    "valid": true,
+    "solids": 1,
+    "bounds": [
+      35.0,
+      28.0,
+      24.6,
+      53.0,
+      46.0,
+      32.0
+    ]
+  },
+  {
+    "name": "Switch_02",
+    "label": "Switch 02",
+    "mesh": "mechanical/mesh/Switch_02.stl",
+    "role": "MX-compatible envelope",
+    "color": [
+      0.07000000029802322,
+      0.07999999821186066,
+      0.07500000298023224,
+      0.0
+    ],
+    "volume_mm3": 1835.2729632679507,
+    "valid": true,
+    "solids": 1,
+    "bounds": [
+      56.25,
+      29.25,
+      13.6,
+      71.75,
+      44.75,
+      25.9
+    ]
+  },
+  {
+    "name": "Hotswap_02",
+    "label": "Hotswap 02",
+    "mesh": "mechanical/mesh/Hotswap_02.stl",
+    "role": "Kailh socket envelope; check footprint drawing",
+    "color": [
+      0.10999999940395355,
+      0.0949999988079071,
+      0.07999999821186066,
+      0.0
+    ],
+    "volume_mm3": 266.22477796076936,
+    "valid": true,
+    "solids": 1,
+    "bounds": [
+      57.0,
+      30.1,
+      9.0,
+      71.0,
+      36.5,
+      12.0
+    ]
+  },
+  {
+    "name": "Keycap_02",
+    "label": "Keycap 02",
+    "mesh": "mechanical/mesh/Keycap_02.stl",
+    "role": "standard 1U purchased keycap envelope",
+    "color": [
+      0.46000000834465027,
+      0.7300000190734863,
+      0.6600000262260437,
+      0.0
+    ],
+    "volume_mm3": 1493.500197886582,
+    "valid": true,
+    "solids": 1,
+    "bounds": [
+      55.0,
+      28.0,
+      24.6,
+      73.0,
+      46.0,
+      32.0
+    ]
+  },
+  {
+    "name": "Switch_03",
+    "label": "Switch 03",
+    "mesh": "mechanical/mesh/Switch_03.stl",
+    "role": "MX-compatible envelope",
+    "color": [
+      0.07000000029802322,
+      0.07999999821186066,
+      0.07500000298023224,
+      0.0
+    ],
+    "volume_mm3": 1835.27296326795,
+    "valid": true,
+    "solids": 1,
+    "bounds": [
+      16.25,
+      51.25,
+      13.6,
+      31.75,
+      66.75,
+      25.9
+    ]
+  },
+  {
+    "name": "Hotswap_03",
+    "label": "Hotswap 03",
+    "mesh": "mechanical/mesh/Hotswap_03.stl",
+    "role": "Kailh socket envelope; check footprint drawing",
+    "color": [
+      0.10999999940395355,
+      0.0949999988079071,
+      0.07999999821186066,
+      0.0
+    ],
+    "volume_mm3": 266.2247779607693,
+    "valid": true,
+    "solids": 1,
+    "bounds": [
+      17.0,
+      52.1,
+      9.0,
+      31.0,
+      58.5,
+      12.0
+    ]
+  },
+  {
+    "name": "Keycap_03",
+    "label": "Keycap 03",
+    "mesh": "mechanical/mesh/Keycap_03.stl",
+    "role": "standard 1U purchased keycap envelope",
+    "color": [
+      0.07999999821186066,
+      0.10499999672174454,
+      0.10999999940395355,
+      0.0
+    ],
+    "volume_mm3": 1493.5001978865573,
+    "valid": true,
+    "solids": 1,
+    "bounds": [
+      15.0,
+      50.0,
+      24.6,
+      33.0,
+      68.0,
+      32.0
+    ]
+  },
+  {
+    "name": "Switch_04",
+    "label": "Switch 04",
+    "mesh": "mechanical/mesh/Switch_04.stl",
+    "role": "MX-compatible envelope",
+    "color": [
+      0.07000000029802322,
+      0.07999999821186066,
+      0.07500000298023224,
+      0.0
+    ],
+    "volume_mm3": 1835.27296326795,
+    "valid": true,
+    "solids": 1,
+    "bounds": [
+      36.25,
+      51.25,
+      13.6,
+      51.75,
+      66.75,
+      25.9
+    ]
+  },
+  {
+    "name": "Hotswap_04",
+    "label": "Hotswap 04",
+    "mesh": "mechanical/mesh/Hotswap_04.stl",
+    "role": "Kailh socket envelope; check footprint drawing",
+    "color": [
+      0.10999999940395355,
+      0.0949999988079071,
+      0.07999999821186066,
+      0.0
+    ],
+    "volume_mm3": 266.2247779607693,
+    "valid": true,
+    "solids": 1,
+    "bounds": [
+      37.0,
+      52.1,
+      9.0,
+      51.0,
+      58.5,
+      12.0
+    ]
+  },
+  {
+    "name": "Keycap_04",
+    "label": "Keycap 04",
+    "mesh": "mechanical/mesh/Keycap_04.stl",
+    "role": "standard 1U purchased keycap envelope",
+    "color": [
+      0.07999999821186066,
+      0.10499999672174454,
+      0.10999999940395355,
+      0.0
+    ],
+    "volume_mm3": 1493.5001978865575,
+    "valid": true,
+    "solids": 1,
+    "bounds": [
+      35.0,
+      50.0,
+      24.6,
+      53.0,
+      68.0,
+      32.0
+    ]
+  },
+  {
+    "name": "Switch_05",
+    "label": "Switch 05",
+    "mesh": "mechanical/mesh/Switch_05.stl",
+    "role": "MX-compatible envelope",
+    "color": [
+      0.07000000029802322,
+      0.07999999821186066,
+      0.07500000298023224,
+      0.0
+    ],
+    "volume_mm3": 1835.272963267951,
+    "valid": true,
+    "solids": 1,
+    "bounds": [
+      56.25,
+      51.25,
+      13.6,
+      71.75,
+      66.75,
+      25.9
+    ]
+  },
+  {
+    "name": "Hotswap_05",
+    "label": "Hotswap 05",
+    "mesh": "mechanical/mesh/Hotswap_05.stl",
+    "role": "Kailh socket envelope; check footprint drawing",
+    "color": [
+      0.10999999940395355,
+      0.0949999988079071,
+      0.07999999821186066,
+      0.0
+    ],
+    "volume_mm3": 266.2247779607693,
+    "valid": true,
+    "solids": 1,
+    "bounds": [
+      57.0,
+      52.1,
+      9.0,
+      71.0,
+      58.5,
+      12.0
+    ]
+  },
+  {
+    "name": "Keycap_05",
+    "label": "Keycap 05",
+    "mesh": "mechanical/mesh/Keycap_05.stl",
+    "role": "standard 1U purchased keycap envelope",
+    "color": [
+      0.07999999821186066,
+      0.10499999672174454,
+      0.10999999940395355,
+      0.0
+    ],
+    "volume_mm3": 1493.5001978865826,
+    "valid": true,
+    "solids": 1,
+    "bounds": [
+      55.0,
+      50.0,
+      24.6,
+      73.0,
+      68.0,
+      32.0
+    ]
+  },
+  {
+    "name": "Switch_06",
+    "label": "Switch 06",
+    "mesh": "mechanical/mesh/Switch_06.stl",
+    "role": "MX-compatible envelope",
+    "color": [
+      0.07000000029802322,
+      0.07999999821186066,
+      0.07500000298023224,
+      0.0
+    ],
+    "volume_mm3": 1835.2729632679507,
+    "valid": true,
+    "solids": 1,
+    "bounds": [
+      76.25,
+      51.25,
+      13.6,
+      91.75,
+      66.75,
+      25.9
+    ]
+  },
+  {
+    "name": "Hotswap_06",
+    "label": "Hotswap 06",
+    "mesh": "mechanical/mesh/Hotswap_06.stl",
+    "role": "Kailh socket envelope; check footprint drawing",
+    "color": [
+      0.10999999940395355,
+      0.0949999988079071,
+      0.07999999821186066,
+      0.0
+    ],
+    "volume_mm3": 266.2247779607693,
+    "valid": true,
+    "solids": 1,
+    "bounds": [
+      77.0,
+      52.1,
+      9.0,
+      91.0,
+      58.5,
+      12.0
+    ]
+  },
+  {
+    "name": "Keycap_06",
+    "label": "Keycap 06",
+    "mesh": "mechanical/mesh/Keycap_06.stl",
+    "role": "standard 1U purchased keycap envelope",
+    "color": [
+      0.07999999821186066,
+      0.10499999672174454,
+      0.10999999940395355,
+      0.0
+    ],
+    "volume_mm3": 1493.5001978864636,
+    "valid": true,
+    "solids": 1,
+    "bounds": [
+      75.0,
+      50.0,
+      24.6,
+      93.0,
+      68.0,
+      32.0
+    ]
+  },
+  {
+    "name": "Switch_07",
+    "label": "Switch 07",
+    "mesh": "mechanical/mesh/Switch_07.stl",
+    "role": "MX-compatible envelope",
+    "color": [
+      0.07000000029802322,
+      0.07999999821186066,
+      0.07500000298023224,
+      0.0
+    ],
+    "volume_mm3": 1835.2729632679502,
+    "valid": true,
+    "solids": 1,
+    "bounds": [
+      16.25,
+      71.25,
+      13.6,
+      31.75,
+      86.75,
+      25.9
+    ]
+  },
+  {
+    "name": "Hotswap_07",
+    "label": "Hotswap 07",
+    "mesh": "mechanical/mesh/Hotswap_07.stl",
+    "role": "Kailh socket envelope; check footprint drawing",
+    "color": [
+      0.10999999940395355,
+      0.0949999988079071,
+      0.07999999821186066,
+      0.0
+    ],
+    "volume_mm3": 266.22477796076964,
+    "valid": true,
+    "solids": 1,
+    "bounds": [
+      17.0,
+      72.1,
+      9.0,
+      31.0,
+      78.5,
+      12.0
+    ]
+  },
+  {
+    "name": "Keycap_07",
+    "label": "Keycap 07",
+    "mesh": "mechanical/mesh/Keycap_07.stl",
+    "role": "standard 1U purchased keycap envelope",
+    "color": [
+      0.07999999821186066,
+      0.10499999672174454,
+      0.10999999940395355,
+      0.0
+    ],
+    "volume_mm3": 1493.5001978864445,
+    "valid": true,
+    "solids": 1,
+    "bounds": [
+      15.0,
+      70.0,
+      24.6,
+      33.0,
+      88.0,
+      32.0
+    ]
+  },
+  {
+    "name": "Switch_08",
+    "label": "Switch 08",
+    "mesh": "mechanical/mesh/Switch_08.stl",
+    "role": "MX-compatible envelope",
+    "color": [
+      0.07000000029802322,
+      0.07999999821186066,
+      0.07500000298023224,
+      0.0
+    ],
+    "volume_mm3": 1835.2729632679495,
+    "valid": true,
+    "solids": 1,
+    "bounds": [
+      36.25,
+      71.25,
+      13.6,
+      51.75,
+      86.75,
+      25.9
+    ]
+  },
+  {
+    "name": "Hotswap_08",
+    "label": "Hotswap 08",
+    "mesh": "mechanical/mesh/Hotswap_08.stl",
+    "role": "Kailh socket envelope; check footprint drawing",
+    "color": [
+      0.10999999940395355,
+      0.0949999988079071,
+      0.07999999821186066,
+      0.0
+    ],
+    "volume_mm3": 266.22477796076964,
+    "valid": true,
+    "solids": 1,
+    "bounds": [
+      37.0,
+      72.1,
+      9.0,
+      51.0,
+      78.5,
+      12.0
+    ]
+  },
+  {
+    "name": "Keycap_08",
+    "label": "Keycap 08",
+    "mesh": "mechanical/mesh/Keycap_08.stl",
+    "role": "standard 1U purchased keycap envelope",
+    "color": [
+      0.07999999821186066,
+      0.10499999672174454,
+      0.10999999940395355,
+      0.0
+    ],
+    "volume_mm3": 1493.5001978864452,
+    "valid": true,
+    "solids": 1,
+    "bounds": [
+      35.0,
+      70.0,
+      24.6,
+      53.0,
+      88.0,
+      32.0
+    ]
+  },
+  {
+    "name": "Switch_09",
+    "label": "Switch 09",
+    "mesh": "mechanical/mesh/Switch_09.stl",
+    "role": "MX-compatible envelope",
+    "color": [
+      0.07000000029802322,
+      0.07999999821186066,
+      0.07500000298023224,
+      0.0
+    ],
+    "volume_mm3": 1835.2729632679511,
+    "valid": true,
+    "solids": 1,
+    "bounds": [
+      56.25,
+      71.25,
+      13.6,
+      71.75,
+      86.75,
+      25.9
+    ]
+  },
+  {
+    "name": "Hotswap_09",
+    "label": "Hotswap 09",
+    "mesh": "mechanical/mesh/Hotswap_09.stl",
+    "role": "Kailh socket envelope; check footprint drawing",
+    "color": [
+      0.10999999940395355,
+      0.0949999988079071,
+      0.07999999821186066,
+      0.0
+    ],
+    "volume_mm3": 266.22477796076964,
+    "valid": true,
+    "solids": 1,
+    "bounds": [
+      57.0,
+      72.1,
+      9.0,
+      71.0,
+      78.5,
+      12.0
+    ]
+  },
+  {
+    "name": "Keycap_09",
+    "label": "Keycap 09",
+    "mesh": "mechanical/mesh/Keycap_09.stl",
+    "role": "standard 1U purchased keycap envelope",
+    "color": [
+      0.07999999821186066,
+      0.10499999672174454,
+      0.10999999940395355,
+      0.0
+    ],
+    "volume_mm3": 1493.5001978864702,
+    "valid": true,
+    "solids": 1,
+    "bounds": [
+      55.0,
+      70.0,
+      24.6,
+      73.0,
+      88.0,
+      32.0
+    ]
+  },
+  {
+    "name": "Switch_10",
+    "label": "Switch 10",
+    "mesh": "mechanical/mesh/Switch_10.stl",
+    "role": "MX-compatible envelope",
+    "color": [
+      0.07000000029802322,
+      0.07999999821186066,
+      0.07500000298023224,
+      0.0
+    ],
+    "volume_mm3": 1835.2729632679511,
+    "valid": true,
+    "solids": 1,
+    "bounds": [
+      76.25,
+      71.25,
+      13.6,
+      91.75,
+      86.75,
+      25.9
+    ]
+  },
+  {
+    "name": "Hotswap_10",
+    "label": "Hotswap 10",
+    "mesh": "mechanical/mesh/Hotswap_10.stl",
+    "role": "Kailh socket envelope; check footprint drawing",
+    "color": [
+      0.10999999940395355,
+      0.0949999988079071,
+      0.07999999821186066,
+      0.0
+    ],
+    "volume_mm3": 266.22477796076964,
+    "valid": true,
+    "solids": 1,
+    "bounds": [
+      77.0,
+      72.1,
+      9.0,
+      91.0,
+      78.5,
+      12.0
+    ]
+  },
+  {
+    "name": "Keycap_10",
+    "label": "Keycap 10",
+    "mesh": "mechanical/mesh/Keycap_10.stl",
+    "role": "standard 1U purchased keycap envelope",
+    "color": [
+      0.07999999821186066,
+      0.10499999672174454,
+      0.10999999940395355,
+      0.0
+    ],
+    "volume_mm3": 1493.5001978863504,
+    "valid": true,
+    "solids": 1,
+    "bounds": [
+      75.0,
+      70.0,
+      24.6,
+      93.0,
+      88.0,
+      32.0
+    ]
+  },
+  {
+    "name": "Switch_11",
+    "label": "Switch 11",
+    "mesh": "mechanical/mesh/Switch_11.stl",
+    "role": "MX-compatible envelope",
+    "color": [
+      0.07000000029802322,
+      0.07999999821186066,
+      0.07500000298023224,
+      0.0
+    ],
+    "volume_mm3": 1835.2729632679504,
+    "valid": true,
+    "solids": 1,
+    "bounds": [
+      16.25,
+      91.25,
+      13.6,
+      31.75,
+      106.75,
+      25.9
+    ]
+  },
+  {
+    "name": "Hotswap_11",
+    "label": "Hotswap 11",
+    "mesh": "mechanical/mesh/Hotswap_11.stl",
+    "role": "Kailh socket envelope; check footprint drawing",
+    "color": [
+      0.10999999940395355,
+      0.0949999988079071,
+      0.07999999821186066,
+      0.0
+    ],
+    "volume_mm3": 266.2247779607696,
+    "valid": true,
+    "solids": 1,
+    "bounds": [
+      17.0,
+      92.1,
+      9.0,
+      31.0,
+      98.5,
+      12.0
+    ]
+  },
+  {
+    "name": "Keycap_11",
+    "label": "Keycap 11",
+    "mesh": "mechanical/mesh/Keycap_11.stl",
+    "role": "standard 1U purchased keycap envelope",
+    "color": [
+      0.07999999821186066,
+      0.10499999672174454,
+      0.10999999940395355,
+      0.0
+    ],
+    "volume_mm3": 1493.5001978864445,
+    "valid": true,
+    "solids": 1,
+    "bounds": [
+      15.0,
+      90.0,
+      24.6,
+      33.0,
+      108.0,
+      32.0
+    ]
+  },
+  {
+    "name": "Switch_12",
+    "label": "Switch 12",
+    "mesh": "mechanical/mesh/Switch_12.stl",
+    "role": "MX-compatible envelope",
+    "color": [
+      0.07000000029802322,
+      0.07999999821186066,
+      0.07500000298023224,
+      0.0
+    ],
+    "volume_mm3": 1835.2729632679495,
+    "valid": true,
+    "solids": 1,
+    "bounds": [
+      36.25,
+      91.25,
+      13.6,
+      51.75,
+      106.75,
+      25.9
+    ]
+  },
+  {
+    "name": "Hotswap_12",
+    "label": "Hotswap 12",
+    "mesh": "mechanical/mesh/Hotswap_12.stl",
+    "role": "Kailh socket envelope; check footprint drawing",
+    "color": [
+      0.10999999940395355,
+      0.0949999988079071,
+      0.07999999821186066,
+      0.0
+    ],
+    "volume_mm3": 266.2247779607696,
+    "valid": true,
+    "solids": 1,
+    "bounds": [
+      37.0,
+      92.1,
+      9.0,
+      51.0,
+      98.5,
+      12.0
+    ]
+  },
+  {
+    "name": "Keycap_12",
+    "label": "Keycap 12",
+    "mesh": "mechanical/mesh/Keycap_12.stl",
+    "role": "standard 1U purchased keycap envelope",
+    "color": [
+      0.07999999821186066,
+      0.10499999672174454,
+      0.10999999940395355,
+      0.0
+    ],
+    "volume_mm3": 1493.5001978864454,
+    "valid": true,
+    "solids": 1,
+    "bounds": [
+      35.0,
+      90.0,
+      24.6,
+      53.0,
+      108.0,
+      32.0
+    ]
+  },
+  {
+    "name": "Switch_13",
+    "label": "Switch 13",
+    "mesh": "mechanical/mesh/Switch_13.stl",
+    "role": "MX-compatible envelope",
+    "color": [
+      0.07000000029802322,
+      0.07999999821186066,
+      0.07500000298023224,
+      0.0
+    ],
+    "volume_mm3": 1835.2729632679511,
+    "valid": true,
+    "solids": 1,
+    "bounds": [
+      56.25,
+      91.25,
+      13.6,
+      71.75,
+      106.75,
+      25.9
+    ]
+  },
+  {
+    "name": "Hotswap_13",
+    "label": "Hotswap 13",
+    "mesh": "mechanical/mesh/Hotswap_13.stl",
+    "role": "Kailh socket envelope; check footprint drawing",
+    "color": [
+      0.10999999940395355,
+      0.0949999988079071,
+      0.07999999821186066,
+      0.0
+    ],
+    "volume_mm3": 266.2247779607696,
+    "valid": true,
+    "solids": 1,
+    "bounds": [
+      57.0,
+      92.1,
+      9.0,
+      71.0,
+      98.5,
+      12.0
+    ]
+  },
+  {
+    "name": "Keycap_13",
+    "label": "Keycap 13",
+    "mesh": "mechanical/mesh/Keycap_13.stl",
+    "role": "standard 1U purchased keycap envelope",
+    "color": [
+      0.07999999821186066,
+      0.10499999672174454,
+      0.10999999940395355,
+      0.0
+    ],
+    "volume_mm3": 1493.5001978864702,
+    "valid": true,
+    "solids": 1,
+    "bounds": [
+      55.0,
+      90.0,
+      24.6,
+      73.0,
+      108.0,
+      32.0
+    ]
+  },
+  {
+    "name": "Encoder_body",
+    "label": "Encoder body",
+    "mesh": "mechanical/mesh/Encoder_body.stl",
+    "role": "ALPS EC11 envelope pending exact selected variant",
+    "color": [
+      0.699999988079071,
+      0.699999988079071,
+      0.699999988079071,
+      0.0
+    ],
+    "volume_mm3": 631.8000000000002,
+    "valid": true,
+    "solids": 1,
+    "bounds": [
+      18.15,
+      31.0,
+      13.6,
+      29.849999999999998,
+      43.0,
+      18.1
+    ]
+  },
+  {
+    "name": "Encoder_shaft",
+    "label": "Encoder shaft",
+    "mesh": "mechanical/mesh/Encoder_shaft.stl",
+    "role": "component",
+    "color": [
+      0.699999988079071,
+      0.699999988079071,
+      0.7200000286102295,
+      0.0
+    ],
+    "volume_mm3": 510.21004120876864,
+    "valid": true,
+    "solids": 1,
+    "bounds": [
+      21.0,
+      34.0,
+      18.1,
+      27.0,
+      40.0,
+      38.1
+    ]
+  },
+  {
+    "name": "Encoder_knob",
+    "label": "Encoder knob",
+    "mesh": "mechanical/mesh/Encoder_knob.stl",
+    "role": "printable D-shaft friction fit; coupon first",
+    "color": [
+      0.11999999731779099,
+      0.17000000178813934,
+      0.18000000715255737,
+      0.0
+    ],
+    "volume_mm3": 5696.836836704369,
+    "valid": true,
+    "solids": 1,
+    "bounds": [
+      13.7,
+      26.7,
+      21.5,
+      34.3,
+      47.3,
+      40.0
+    ]
+  },
+  {
+    "name": "Joystick_body",
+    "label": "Joystick body",
+    "mesh": "mechanical/mesh/Joystick_body.stl",
+    "role": "ALPS RKJXV1224005 bounding envelope",
+    "color": [
+      0.11999999731779099,
+      0.11999999731779099,
+      0.11999999731779099,
+      0.0
+    ],
+    "volume_mm3": 4243.96445943005,
+    "valid": true,
+    "solids": 1,
+    "bounds": [
+      75.9,
+      27.6,
+      13.6,
+      93.7,
+      48.900000000000006,
+      24.799999999999997
+    ]
+  },
+  {
+    "name": "Joystick_stick",
+    "label": "Joystick stick",
+    "mesh": "mechanical/mesh/Joystick_stick.stl",
+    "role": "component",
+    "color": [
+      0.699999988079071,
+      0.699999988079071,
+      0.699999988079071,
+      0.0
+    ],
+    "volume_mm3": 97.38937226128358,
+    "valid": true,
+    "solids": 1,
+    "bounds": [
+      82.0,
+      35.0,
+      24.8,
+      86.0,
+      39.0,
+      32.55
+    ]
+  },
+  {
+    "name": "Joystick_cap_TPU",
+    "label": "Joystick cap TPU",
+    "mesh": "mechanical/mesh/Joystick_cap_TPU.stl",
+    "role": "printable TPU; actual shaft fit must be measured",
+    "color": [
+      0.08500000089406967,
+      0.11999999731779099,
+      0.11500000208616257,
+      0.0
+    ],
+    "volume_mm3": 1066.5086050914927,
+    "valid": true,
+    "solids": 1,
+    "bounds": [
+      75.01389962219429,
+      28.013899622194288,
+      30.199999999999996,
+      92.98610037780571,
+      45.98610037780571,
+      35.2
+    ]
+  },
+  {
+    "name": "Joystick_bezel",
+    "label": "Joystick bezel",
+    "mesh": "mechanical/mesh/Joystick_bezel.stl",
+    "role": "printable removable travel bezel",
+    "color": [
+      0.4399999976158142,
+      0.6299999952316284,
+      0.5699999928474426,
+      0.0
+    ],
+    "volume_mm3": 51.193646003293956,
+    "valid": true,
+    "solids": 1,
+    "bounds": [
+      74.5,
+      26.2,
+      18.7,
+      95.1,
+      50.3,
+      19.3
+    ]
+  },
+  {
+    "name": "Touch_cap_PETG",
+    "label": "Touch cap PETG",
+    "mesh": "mechanical/mesh/Touch_cap_PETG.stl",
+    "role": "printable dielectric cap; optional touch PCB beneath",
+    "color": [
+      0.44999998807907104,
+      0.7099999785423279,
+      0.6399999856948853,
+      0.0
+    ],
+    "volume_mm3": 176.71458676442586,
+    "valid": true,
+    "solids": 1,
+    "bounds": [
+      76.5,
+      91.5,
+      17.2,
+      91.5,
+      106.5,
+      18.2
+    ]
+  },
+  {
+    "name": "Touch_electrode_optional",
+    "label": "Touch electrode optional",
+    "mesh": "mechanical/mesh/Touch_electrode_optional.stl",
+    "role": "optional / unpopulated",
+    "color": [
+      0.699999988079071,
+      0.4000000059604645,
+      0.12999999523162842,
+      0.0
+    ],
+    "volume_mm3": 29.05344886039846,
+    "valid": true,
+    "solids": 1,
+    "bounds": [
+      77.2,
+      92.2,
+      15.9,
+      90.8,
+      105.8,
+      16.1
+    ]
+  },
+  {
+    "name": "Pico_W_board",
+    "label": "Pico W board",
+    "mesh": "mechanical/mesh/Pico_W_board.stl",
+    "role": "soldered / no plug-in headers",
+    "color": [
+      0.07000000029802322,
+      0.33000001311302185,
+      0.18000000715255737,
+      0.0
+    ],
+    "volume_mm3": 1070.14159265359,
+    "valid": true,
+    "solids": 1,
+    "bounds": [
+      42.0,
+      5.0,
+      11.0,
+      93.0,
+      26.0,
+      12.0
+    ]
+  },
+  {
+    "name": "Pico_RF_shield",
+    "label": "Pico RF shield",
+    "mesh": "mechanical/mesh/Pico_RF_shield.stl",
+    "role": "component",
+    "color": [
+      0.699999988079071,
+      0.699999988079071,
+      0.699999988079071,
+      0.0
+    ],
+    "volume_mm3": 525.0,
+    "valid": true,
+    "solids": 1,
+    "bounds": [
+      63.0,
+      8.0,
+      8.5,
+      77.0,
+      23.0,
+      11.0
+    ]
+  },
+  {
+    "name": "Pico_USB_microB",
+    "label": "Pico USB microB",
+    "mesh": "mechanical/mesh/Pico_USB_microB.stl",
+    "role": "component",
+    "color": [
+      0.7200000286102295,
+      0.7200000286102295,
+      0.75,
+      0.0
+    ],
+    "volume_mm3": 141.36000000000004,
+    "valid": true,
+    "solids": 1,
+    "bounds": [
+      41.0,
+      11.5,
+      7.9,
+      46.7,
+      19.5,
+      11.0
+    ]
+  },
+  {
+    "name": "Rear_USB_microB_panel",
+    "label": "Rear USB microB panel",
+    "mesh": "mechanical/mesh/Rear_USB_microB_panel.stl",
+    "role": "Adafruit 3258; body envelope provisional",
+    "color": [
+      0.04500000178813934,
+      0.04500000178813934,
+      0.04500000178813934,
+      0.0
+    ],
+    "volume_mm3": 1508.887644737231,
+    "valid": true,
+    "solids": 1,
+    "bounds": [
+      13.0,
+      -0.5,
+      5.0,
+      37.0,
+      20.5,
+      11.0
+    ]
+  },
+  {
+    "name": "USB_cable_route_envelope",
+    "label": "USB cable route envelope",
+    "mesh": "mechanical/mesh/USB_cable_route_envelope.stl",
+    "role": "4mm representative cable corridor; bend radii and actual length to verify",
+    "color": [
+      0.04500000178813934,
+      0.04500000178813934,
+      0.04500000178813934,
+      0.0
+    ],
+    "volume_mm3": 3891.153085797177,
+    "valid": true,
+    "solids": 7,
+    "bounds": [
+      13.0,
+      13.5,
+      3.6999999999999997,
+      90.0,
+      106.0,
+      11.4
+    ]
+  },
+  {
+    "name": "Microphone_bay_reserved",
+    "label": "Microphone bay reserved",
+    "mesh": "mechanical/mesh/Microphone_bay_reserved.stl",
+    "role": "15x9x6mm reserved volume only; not populated",
+    "color": [
+      0.20000000298023224,
+      0.4000000059604645,
+      0.699999988079071,
+      0.0
+    ],
+    "volume_mm3": 810.0,
+    "valid": true,
+    "solids": 1,
+    "bounds": [
+      70.0,
+      109.0,
+      3.0,
+      85.0,
+      118.0,
+      9.0
+    ]
+  },
+  {
+    "name": "Foot_01_TPU",
+    "label": "Foot 01 TPU",
+    "mesh": "mechanical/mesh/Foot_01_TPU.stl",
+    "role": "printable TPU foot",
+    "color": [
+      0.05999999865889549,
+      0.07999999821186066,
+      0.07500000298023224,
+      0.0
+    ],
+    "volume_mm3": 180.6415775814131,
+    "valid": true,
+    "solids": 1,
+    "bounds": [
+      9.0,
+      12.0,
+      -1.7,
+      19.0,
+      22.0,
+      0.5999999999999999
+    ]
+  },
+  {
+    "name": "Foot_02_TPU",
+    "label": "Foot 02 TPU",
+    "mesh": "mechanical/mesh/Foot_02_TPU.stl",
+    "role": "printable TPU foot",
+    "color": [
+      0.05999999865889549,
+      0.07999999821186066,
+      0.07500000298023224,
+      0.0
+    ],
+    "volume_mm3": 180.64157758141312,
+    "valid": true,
+    "solids": 1,
+    "bounds": [
+      89.0,
+      12.0,
+      -1.7,
+      99.0,
+      22.0,
+      0.5999999999999999
+    ]
+  },
+  {
+    "name": "Foot_03_TPU",
+    "label": "Foot 03 TPU",
+    "mesh": "mechanical/mesh/Foot_03_TPU.stl",
+    "role": "printable TPU foot",
+    "color": [
+      0.05999999865889549,
+      0.07999999821186066,
+      0.07500000298023224,
+      0.0
+    ],
+    "volume_mm3": 180.6415775814131,
+    "valid": true,
+    "solids": 1,
+    "bounds": [
+      9.0,
+      100.0,
+      -1.7,
+      19.0,
+      110.0,
+      0.5999999999999999
+    ]
+  },
+  {
+    "name": "Foot_04_TPU",
+    "label": "Foot 04 TPU",
+    "mesh": "mechanical/mesh/Foot_04_TPU.stl",
+    "role": "printable TPU foot",
+    "color": [
+      0.05999999865889549,
+      0.07999999821186066,
+      0.07500000298023224,
+      0.0
+    ],
+    "volume_mm3": 180.64157758141312,
+    "valid": true,
+    "solids": 1,
+    "bounds": [
+      89.0,
+      100.0,
+      -1.7,
+      99.0,
+      110.0,
+      0.5999999999999999
+    ]
+  },
+  {
+    "name": "Screw_01_M2p5x16",
+    "label": "Screw 01 M2p5x16",
+    "mesh": "mechanical/mesh/Screw_01_M2p5x16.stl",
+    "role": "M2.5x16 ISO7045/DIN7985 pan head, maxheight2.12mm envelope",
+    "color": [
+      0.18000000715255737,
+      0.18000000715255737,
+      0.1899999976158142,
+      0.0
+    ],
+    "volume_mm3": 114.0083973987736,
+    "valid": true,
+    "solids": 1,
+    "bounds": [
+      6.5,
+      6.5,
+      -0.42,
+      11.5,
+      11.5,
+      17.7
+    ]
+  },
+  {
+    "name": "Insert_01",
+    "label": "Insert 01",
+    "mesh": "mechanical/mesh/Insert_01.stl",
+    "role": "Trianglelab M2.5 D4.2 L3 heat-set insert / pilot fit to calibrate",
+    "color": [
+      0.5799999833106995,
+      0.3700000047683716,
+      0.11999999731779099,
+      0.0
+    ],
+    "volume_mm3": 30.159289474462014,
+    "valid": true,
+    "solids": 1,
+    "bounds": [
+      6.9,
+      6.9,
+      14.0,
+      11.1,
+      11.1,
+      17.0
+    ]
+  },
+  {
+    "name": "Screw_02_M2p5x16",
+    "label": "Screw 02 M2p5x16",
+    "mesh": "mechanical/mesh/Screw_02_M2p5x16.stl",
+    "role": "M2.5x16 ISO7045/DIN7985 pan head, maxheight2.12mm envelope",
+    "color": [
+      0.18000000715255737,
+      0.18000000715255737,
+      0.1899999976158142,
+      0.0
+    ],
+    "volume_mm3": 114.00839739877358,
+    "valid": true,
+    "solids": 1,
+    "bounds": [
+      96.5,
+      6.5,
+      -0.42,
+      101.5,
+      11.5,
+      17.7
+    ]
+  },
+  {
+    "name": "Insert_02",
+    "label": "Insert 02",
+    "mesh": "mechanical/mesh/Insert_02.stl",
+    "role": "Trianglelab M2.5 D4.2 L3 heat-set insert / pilot fit to calibrate",
+    "color": [
+      0.5799999833106995,
+      0.3700000047683716,
+      0.11999999731779099,
+      0.0
+    ],
+    "volume_mm3": 30.159289474462046,
+    "valid": true,
+    "solids": 1,
+    "bounds": [
+      96.9,
+      6.9,
+      14.0,
+      101.1,
+      11.1,
+      17.0
+    ]
+  },
+  {
+    "name": "Screw_03_M2p5x16",
+    "label": "Screw 03 M2p5x16",
+    "mesh": "mechanical/mesh/Screw_03_M2p5x16.stl",
+    "role": "M2.5x16 ISO7045/DIN7985 pan head, maxheight2.12mm envelope",
+    "color": [
+      0.18000000715255737,
+      0.18000000715255737,
+      0.1899999976158142,
+      0.0
+    ],
+    "volume_mm3": 114.00839739877355,
+    "valid": true,
+    "solids": 1,
+    "bounds": [
+      6.5,
+      60.5,
+      -0.42,
+      11.5,
+      65.5,
+      17.7
+    ]
+  },
+  {
+    "name": "Insert_03",
+    "label": "Insert 03",
+    "mesh": "mechanical/mesh/Insert_03.stl",
+    "role": "Trianglelab M2.5 D4.2 L3 heat-set insert / pilot fit to calibrate",
+    "color": [
+      0.5799999833106995,
+      0.3700000047683716,
+      0.11999999731779099,
+      0.0
+    ],
+    "volume_mm3": 30.159289474462028,
+    "valid": true,
+    "solids": 1,
+    "bounds": [
+      6.9,
+      60.9,
+      14.0,
+      11.1,
+      65.1,
+      17.0
+    ]
+  },
+  {
+    "name": "Screw_04_M2p5x16",
+    "label": "Screw 04 M2p5x16",
+    "mesh": "mechanical/mesh/Screw_04_M2p5x16.stl",
+    "role": "M2.5x16 ISO7045/DIN7985 pan head, maxheight2.12mm envelope",
+    "color": [
+      0.18000000715255737,
+      0.18000000715255737,
+      0.1899999976158142,
+      0.0
+    ],
+    "volume_mm3": 114.00839739877354,
+    "valid": true,
+    "solids": 1,
+    "bounds": [
+      96.5,
+      60.5,
+      -0.42,
+      101.5,
+      65.5,
+      17.7
+    ]
+  },
+  {
+    "name": "Insert_04",
+    "label": "Insert 04",
+    "mesh": "mechanical/mesh/Insert_04.stl",
+    "role": "Trianglelab M2.5 D4.2 L3 heat-set insert / pilot fit to calibrate",
+    "color": [
+      0.5799999833106995,
+      0.3700000047683716,
+      0.11999999731779099,
+      0.0
+    ],
+    "volume_mm3": 30.159289474462057,
+    "valid": true,
+    "solids": 1,
+    "bounds": [
+      96.9,
+      60.9,
+      14.0,
+      101.1,
+      65.1,
+      17.0
+    ]
+  },
+  {
+    "name": "Screw_05_M2p5x16",
+    "label": "Screw 05 M2p5x16",
+    "mesh": "mechanical/mesh/Screw_05_M2p5x16.stl",
+    "role": "M2.5x16 ISO7045/DIN7985 pan head, maxheight2.12mm envelope",
+    "color": [
+      0.18000000715255737,
+      0.18000000715255737,
+      0.1899999976158142,
+      0.0
+    ],
+    "volume_mm3": 114.00839739877354,
+    "valid": true,
+    "solids": 1,
+    "bounds": [
+      6.5,
+      108.5,
+      -0.42,
+      11.5,
+      113.5,
+      17.7
+    ]
+  },
+  {
+    "name": "Insert_05",
+    "label": "Insert 05",
+    "mesh": "mechanical/mesh/Insert_05.stl",
+    "role": "Trianglelab M2.5 D4.2 L3 heat-set insert / pilot fit to calibrate",
+    "color": [
+      0.5799999833106995,
+      0.3700000047683716,
+      0.11999999731779099,
+      0.0
+    ],
+    "volume_mm3": 30.15928947446202,
+    "valid": true,
+    "solids": 1,
+    "bounds": [
+      6.9,
+      108.9,
+      14.0,
+      11.1,
+      113.1,
+      17.0
+    ]
+  },
+  {
+    "name": "Screw_06_M2p5x16",
+    "label": "Screw 06 M2p5x16",
+    "mesh": "mechanical/mesh/Screw_06_M2p5x16.stl",
+    "role": "M2.5x16 ISO7045/DIN7985 pan head, maxheight2.12mm envelope",
+    "color": [
+      0.18000000715255737,
+      0.18000000715255737,
+      0.1899999976158142,
+      0.0
+    ],
+    "volume_mm3": 114.00839739877352,
+    "valid": true,
+    "solids": 1,
+    "bounds": [
+      96.5,
+      108.5,
+      -0.42,
+      101.5,
+      113.5,
+      17.7
+    ]
+  },
+  {
+    "name": "Insert_06",
+    "label": "Insert 06",
+    "mesh": "mechanical/mesh/Insert_06.stl",
+    "role": "Trianglelab M2.5 D4.2 L3 heat-set insert / pilot fit to calibrate",
+    "color": [
+      0.5799999833106995,
+      0.3700000047683716,
+      0.11999999731779099,
+      0.0
+    ],
+    "volume_mm3": 30.159289474462053,
+    "valid": true,
+    "solids": 1,
+    "bounds": [
+      96.9,
+      108.9,
+      14.0,
+      101.1,
+      113.1,
+      17.0
+    ]
+  }
+]

@@ -1,0 +1,733 @@
+{
+  "schematic_uuid": "14d38662-2680-5966-94a1-12d206f25a9e",
+  "schema_version": 1,
+  "project": "macropad",
+  "kicad_version": "9",
+  "components": [
+    {
+      "ref": "U1",
+      "uuid": "1108d271-9752-565d-87b6-cad3c5b1b0fe",
+      "value": "Raspberry Pi Pico W",
+      "footprint": "Macropad:PicoW_Castellated",
+      "pins": {
+        "1": "ROW0",
+        "2": "ROW1",
+        "3": "GND",
+        "4": "ROW2",
+        "5": "ROW3",
+        "6": "COL0",
+        "7": "COL1",
+        "8": "GND",
+        "9": "COL2",
+        "10": "COL3",
+        "11": "ENC_A",
+        "12": "ENC_B",
+        "13": "GND",
+        "14": "ENC_SW",
+        "15": "JOY_SW",
+        "16": "TOUCH_SDA",
+        "17": "TOUCH_SCL",
+        "18": "GND",
+        "19": null,
+        "20": "RGB_DATA",
+        "21": "MIC_BCLK",
+        "22": "MIC_WS",
+        "23": "GND",
+        "24": "MIC_DATA",
+        "25": null,
+        "26": null,
+        "27": null,
+        "28": "GND",
+        "29": null,
+        "30": null,
+        "31": "JOY_X",
+        "32": "JOY_Y",
+        "33": "GND",
+        "34": null,
+        "35": null,
+        "36": "3V3",
+        "37": null,
+        "38": "GND",
+        "39": null,
+        "40": "5V_USB"
+      },
+      "manufacturer": "Raspberry Pi",
+      "mpn": "SC0918",
+      "source": "https://datasheets.raspberrypi.com/picow/pico-w-datasheet.pdf",
+      "side": "B",
+      "description": "USB-powered Pico W; castellated carrier mount; USB connector faces left edge; antenna faces right"
+    },
+    {
+      "ref": "SW1",
+      "uuid": "8f1ff92c-0ed7-5393-a64a-105a8e8ed79c",
+      "value": "MX hot-swap",
+      "footprint": "Macropad:MX_Hotswap_CPG151101S11_16",
+      "pins": {
+        "1": "COL1",
+        "2": "KEY1_A"
+      },
+      "manufacturer": "Kailh",
+      "mpn": "CPG151101S11-16",
+      "source": "https://www.kailhswitch.com/Content/upload/pdf/202215927/CPG151101S11-16.pdf",
+      "row": 0,
+      "col": 1,
+      "side": "B",
+      "description": "Socket on B.Cu; MX switch inserted from F.Cu; socket and switch are distinct BOM items"
+    },
+    {
+      "ref": "D1",
+      "uuid": "df61c304-9d6b-56f8-9e9b-a8f5fcdf503b",
+      "value": "1N4148W",
+      "footprint": "Diode_SMD:D_SOD-123",
+      "pins": {
+        "1": "ROW0",
+        "2": "KEY1_A"
+      },
+      "manufacturer": "Diodes Incorporated",
+      "mpn": "1N4148W-7-F",
+      "source": "https://www.diodes.com/assets/Datasheets/ds12019.pdf",
+      "side": "B",
+      "description": "Pin 1 cathode toward row; pin 2 anode toward switch"
+    },
+    {
+      "ref": "SW2",
+      "uuid": "ad62d506-b0db-505d-8705-0164b99e530d",
+      "value": "MX hot-swap",
+      "footprint": "Macropad:MX_Hotswap_CPG151101S11_16",
+      "pins": {
+        "1": "COL2",
+        "2": "KEY2_A"
+      },
+      "manufacturer": "Kailh",
+      "mpn": "CPG151101S11-16",
+      "source": "https://www.kailhswitch.com/Content/upload/pdf/202215927/CPG151101S11-16.pdf",
+      "row": 0,
+      "col": 2,
+      "side": "B",
+      "description": "Socket on B.Cu; MX switch inserted from F.Cu; socket and switch are distinct BOM items"
+    },
+    {
+      "ref": "D2",
+      "uuid": "980731fc-bfbb-50d9-938a-648420a48c3a",
+      "value": "1N4148W",
+      "footprint": "Diode_SMD:D_SOD-123",
+      "pins": {
+        "1": "ROW0",
+        "2": "KEY2_A"
+      },
+      "manufacturer": "Diodes Incorporated",
+      "mpn": "1N4148W-7-F",
+      "source": "https://www.diodes.com/assets/Datasheets/ds12019.pdf",
+      "side": "B",
+      "description": "Pin 1 cathode toward row; pin 2 anode toward switch"
+    },
+    {
+      "ref": "SW3",
+      "uuid": "7ea6292f-c4aa-5ece-a70d-0d31a5d0d81e",
+      "value": "MX hot-swap",
+      "footprint": "Macropad:MX_Hotswap_CPG151101S11_16",
+      "pins": {
+        "1": "COL0",
+        "2": "KEY3_A"
+      },
+      "manufacturer": "Kailh",
+      "mpn": "CPG151101S11-16",
+      "source": "https://www.kailhswitch.com/Content/upload/pdf/202215927/CPG151101S11-16.pdf",
+      "row": 1,
+      "col": 0,
+      "side": "B",
+      "description": "Socket on B.Cu; MX switch inserted from F.Cu; socket and switch are distinct BOM items"
+    },
+    {
+      "ref": "D3",
+      "uuid": "0a5dadba-e1df-5688-8373-ebab64d909e8",
+      "value": "1N4148W",
+      "footprint": "Diode_SMD:D_SOD-123",
+      "pins": {
+        "1": "ROW1",
+        "2": "KEY3_A"
+      },
+      "manufacturer": "Diodes Incorporated",
+      "mpn": "1N4148W-7-F",
+      "source": "https://www.diodes.com/assets/Datasheets/ds12019.pdf",
+      "side": "B",
+      "description": "Pin 1 cathode toward row; pin 2 anode toward switch"
+    },
+    {
+      "ref": "SW4",
+      "uuid": "66e507d2-2469-59c9-86bd-7a9c48688d2a",
+      "value": "MX hot-swap",
+      "footprint": "Macropad:MX_Hotswap_CPG151101S11_16",
+      "pins": {
+        "1": "COL1",
+        "2": "KEY4_A"
+      },
+      "manufacturer": "Kailh",
+      "mpn": "CPG151101S11-16",
+      "source": "https://www.kailhswitch.com/Content/upload/pdf/202215927/CPG151101S11-16.pdf",
+      "row": 1,
+      "col": 1,
+      "side": "B",
+      "description": "Socket on B.Cu; MX switch inserted from F.Cu; socket and switch are distinct BOM items"
+    },
+    {
+      "ref": "D4",
+      "uuid": "68e8eeea-8e4d-547f-b1c4-deb638c5aaa4",
+      "value": "1N4148W",
+      "footprint": "Diode_SMD:D_SOD-123",
+      "pins": {
+        "1": "ROW1",
+        "2": "KEY4_A"
+      },
+      "manufacturer": "Diodes Incorporated",
+      "mpn": "1N4148W-7-F",
+      "source": "https://www.diodes.com/assets/Datasheets/ds12019.pdf",
+      "side": "B",
+      "description": "Pin 1 cathode toward row; pin 2 anode toward switch"
+    },
+    {
+      "ref": "SW5",
+      "uuid": "4dfcba46-cb47-5952-b2e8-6b368907ea8f",
+      "value": "MX hot-swap",
+      "footprint": "Macropad:MX_Hotswap_CPG151101S11_16",
+      "pins": {
+        "1": "COL2",
+        "2": "KEY5_A"
+      },
+      "manufacturer": "Kailh",
+      "mpn": "CPG151101S11-16",
+      "source": "https://www.kailhswitch.com/Content/upload/pdf/202215927/CPG151101S11-16.pdf",
+      "row": 1,
+      "col": 2,
+      "side": "B",
+      "description": "Socket on B.Cu; MX switch inserted from F.Cu; socket and switch are distinct BOM items"
+    },
+    {
+      "ref": "D5",
+      "uuid": "ff5dc773-b3c1-558a-9ccd-4ee1c1f1762b",
+      "value": "1N4148W",
+      "footprint": "Diode_SMD:D_SOD-123",
+      "pins": {
+        "1": "ROW1",
+        "2": "KEY5_A"
+      },
+      "manufacturer": "Diodes Incorporated",
+      "mpn": "1N4148W-7-F",
+      "source": "https://www.diodes.com/assets/Datasheets/ds12019.pdf",
+      "side": "B",
+      "description": "Pin 1 cathode toward row; pin 2 anode toward switch"
+    },
+    {
+      "ref": "SW6",
+      "uuid": "06e47fa2-0886-5e68-a9b7-94b579d37aa5",
+      "value": "MX hot-swap",
+      "footprint": "Macropad:MX_Hotswap_CPG151101S11_16",
+      "pins": {
+        "1": "COL3",
+        "2": "KEY6_A"
+      },
+      "manufacturer": "Kailh",
+      "mpn": "CPG151101S11-16",
+      "source": "https://www.kailhswitch.com/Content/upload/pdf/202215927/CPG151101S11-16.pdf",
+      "row": 1,
+      "col": 3,
+      "side": "B",
+      "description": "Socket on B.Cu; MX switch inserted from F.Cu; socket and switch are distinct BOM items"
+    },
+    {
+      "ref": "D6",
+      "uuid": "63d5b906-2358-5ccb-9462-b2c338cce69c",
+      "value": "1N4148W",
+      "footprint": "Diode_SMD:D_SOD-123",
+      "pins": {
+        "1": "ROW1",
+        "2": "KEY6_A"
+      },
+      "manufacturer": "Diodes Incorporated",
+      "mpn": "1N4148W-7-F",
+      "source": "https://www.diodes.com/assets/Datasheets/ds12019.pdf",
+      "side": "B",
+      "description": "Pin 1 cathode toward row; pin 2 anode toward switch"
+    },
+    {
+      "ref": "SW7",
+      "uuid": "35ce742f-d6b6-5412-8ec0-e65d6010e89d",
+      "value": "MX hot-swap",
+      "footprint": "Macropad:MX_Hotswap_CPG151101S11_16",
+      "pins": {
+        "1": "COL0",
+        "2": "KEY7_A"
+      },
+      "manufacturer": "Kailh",
+      "mpn": "CPG151101S11-16",
+      "source": "https://www.kailhswitch.com/Content/upload/pdf/202215927/CPG151101S11-16.pdf",
+      "row": 2,
+      "col": 0,
+      "side": "B",
+      "description": "Socket on B.Cu; MX switch inserted from F.Cu; socket and switch are distinct BOM items"
+    },
+    {
+      "ref": "D7",
+      "uuid": "2f6cca2d-913a-5c6a-8a6e-d4b3e6aed824",
+      "value": "1N4148W",
+      "footprint": "Diode_SMD:D_SOD-123",
+      "pins": {
+        "1": "ROW2",
+        "2": "KEY7_A"
+      },
+      "manufacturer": "Diodes Incorporated",
+      "mpn": "1N4148W-7-F",
+      "source": "https://www.diodes.com/assets/Datasheets/ds12019.pdf",
+      "side": "B",
+      "description": "Pin 1 cathode toward row; pin 2 anode toward switch"
+    },
+    {
+      "ref": "SW8",
+      "uuid": "7a8be091-0ba2-5b36-83d4-f47214b7bbdf",
+      "value": "MX hot-swap",
+      "footprint": "Macropad:MX_Hotswap_CPG151101S11_16",
+      "pins": {
+        "1": "COL1",
+        "2": "KEY8_A"
+      },
+      "manufacturer": "Kailh",
+      "mpn": "CPG151101S11-16",
+      "source": "https://www.kailhswitch.com/Content/upload/pdf/202215927/CPG151101S11-16.pdf",
+      "row": 2,
+      "col": 1,
+      "side": "B",
+      "description": "Socket on B.Cu; MX switch inserted from F.Cu; socket and switch are distinct BOM items"
+    },
+    {
+      "ref": "D8",
+      "uuid": "22009076-0012-5487-9cc9-f953f5d20070",
+      "value": "1N4148W",
+      "footprint": "Diode_SMD:D_SOD-123",
+      "pins": {
+        "1": "ROW2",
+        "2": "KEY8_A"
+      },
+      "manufacturer": "Diodes Incorporated",
+      "mpn": "1N4148W-7-F",
+      "source": "https://www.diodes.com/assets/Datasheets/ds12019.pdf",
+      "side": "B",
+      "description": "Pin 1 cathode toward row; pin 2 anode toward switch"
+    },
+    {
+      "ref": "SW9",
+      "uuid": "4ddcc169-97ff-5cdc-92fd-1c2640b0d00e",
+      "value": "MX hot-swap",
+      "footprint": "Macropad:MX_Hotswap_CPG151101S11_16",
+      "pins": {
+        "1": "COL2",
+        "2": "KEY9_A"
+      },
+      "manufacturer": "Kailh",
+      "mpn": "CPG151101S11-16",
+      "source": "https://www.kailhswitch.com/Content/upload/pdf/202215927/CPG151101S11-16.pdf",
+      "row": 2,
+      "col": 2,
+      "side": "B",
+      "description": "Socket on B.Cu; MX switch inserted from F.Cu; socket and switch are distinct BOM items"
+    },
+    {
+      "ref": "D9",
+      "uuid": "23cf62e0-5e0e-550b-827a-70def09e20a6",
+      "value": "1N4148W",
+      "footprint": "Diode_SMD:D_SOD-123",
+      "pins": {
+        "1": "ROW2",
+        "2": "KEY9_A"
+      },
+      "manufacturer": "Diodes Incorporated",
+      "mpn": "1N4148W-7-F",
+      "source": "https://www.diodes.com/assets/Datasheets/ds12019.pdf",
+      "side": "B",
+      "description": "Pin 1 cathode toward row; pin 2 anode toward switch"
+    },
+    {
+      "ref": "SW10",
+      "uuid": "7890d28b-459e-5bff-85df-68a52461861c",
+      "value": "MX hot-swap",
+      "footprint": "Macropad:MX_Hotswap_CPG151101S11_16",
+      "pins": {
+        "1": "COL3",
+        "2": "KEY10_A"
+      },
+      "manufacturer": "Kailh",
+      "mpn": "CPG151101S11-16",
+      "source": "https://www.kailhswitch.com/Content/upload/pdf/202215927/CPG151101S11-16.pdf",
+      "row": 2,
+      "col": 3,
+      "side": "B",
+      "description": "Socket on B.Cu; MX switch inserted from F.Cu; socket and switch are distinct BOM items"
+    },
+    {
+      "ref": "D10",
+      "uuid": "5d0dde51-999c-5f81-92d6-8e8733fd3a18",
+      "value": "1N4148W",
+      "footprint": "Diode_SMD:D_SOD-123",
+      "pins": {
+        "1": "ROW2",
+        "2": "KEY10_A"
+      },
+      "manufacturer": "Diodes Incorporated",
+      "mpn": "1N4148W-7-F",
+      "source": "https://www.diodes.com/assets/Datasheets/ds12019.pdf",
+      "side": "B",
+      "description": "Pin 1 cathode toward row; pin 2 anode toward switch"
+    },
+    {
+      "ref": "SW11",
+      "uuid": "a018a1e4-3ae3-57f7-9124-7dbde8a2ced6",
+      "value": "MX hot-swap",
+      "footprint": "Macropad:MX_Hotswap_CPG151101S11_16",
+      "pins": {
+        "1": "COL0",
+        "2": "KEY11_A"
+      },
+      "manufacturer": "Kailh",
+      "mpn": "CPG151101S11-16",
+      "source": "https://www.kailhswitch.com/Content/upload/pdf/202215927/CPG151101S11-16.pdf",
+      "row": 3,
+      "col": 0,
+      "side": "B",
+      "description": "Socket on B.Cu; MX switch inserted from F.Cu; socket and switch are distinct BOM items"
+    },
+    {
+      "ref": "D11",
+      "uuid": "8d593951-fd1d-572f-b1e8-d89718f1cc92",
+      "value": "1N4148W",
+      "footprint": "Diode_SMD:D_SOD-123",
+      "pins": {
+        "1": "ROW3",
+        "2": "KEY11_A"
+      },
+      "manufacturer": "Diodes Incorporated",
+      "mpn": "1N4148W-7-F",
+      "source": "https://www.diodes.com/assets/Datasheets/ds12019.pdf",
+      "side": "B",
+      "description": "Pin 1 cathode toward row; pin 2 anode toward switch"
+    },
+    {
+      "ref": "SW12",
+      "uuid": "aee51fb2-830a-56ec-bf82-d7a0432ee4e6",
+      "value": "MX hot-swap",
+      "footprint": "Macropad:MX_Hotswap_CPG151101S11_16",
+      "pins": {
+        "1": "COL1",
+        "2": "KEY12_A"
+      },
+      "manufacturer": "Kailh",
+      "mpn": "CPG151101S11-16",
+      "source": "https://www.kailhswitch.com/Content/upload/pdf/202215927/CPG151101S11-16.pdf",
+      "row": 3,
+      "col": 1,
+      "side": "B",
+      "description": "Socket on B.Cu; MX switch inserted from F.Cu; socket and switch are distinct BOM items"
+    },
+    {
+      "ref": "D12",
+      "uuid": "c5eb5a39-fba8-5c46-aff4-fe51d039c7be",
+      "value": "1N4148W",
+      "footprint": "Diode_SMD:D_SOD-123",
+      "pins": {
+        "1": "ROW3",
+        "2": "KEY12_A"
+      },
+      "manufacturer": "Diodes Incorporated",
+      "mpn": "1N4148W-7-F",
+      "source": "https://www.diodes.com/assets/Datasheets/ds12019.pdf",
+      "side": "B",
+      "description": "Pin 1 cathode toward row; pin 2 anode toward switch"
+    },
+    {
+      "ref": "SW13",
+      "uuid": "5d43ff08-3028-544d-bc23-ad898c14a0a7",
+      "value": "MX hot-swap",
+      "footprint": "Macropad:MX_Hotswap_CPG151101S11_16",
+      "pins": {
+        "1": "COL2",
+        "2": "KEY13_A"
+      },
+      "manufacturer": "Kailh",
+      "mpn": "CPG151101S11-16",
+      "source": "https://www.kailhswitch.com/Content/upload/pdf/202215927/CPG151101S11-16.pdf",
+      "row": 3,
+      "col": 2,
+      "side": "B",
+      "description": "Socket on B.Cu; MX switch inserted from F.Cu; socket and switch are distinct BOM items"
+    },
+    {
+      "ref": "D13",
+      "uuid": "9d97aa63-4b59-58fe-ba4e-282d962869d3",
+      "value": "1N4148W",
+      "footprint": "Diode_SMD:D_SOD-123",
+      "pins": {
+        "1": "ROW3",
+        "2": "KEY13_A"
+      },
+      "manufacturer": "Diodes Incorporated",
+      "mpn": "1N4148W-7-F",
+      "source": "https://www.diodes.com/assets/Datasheets/ds12019.pdf",
+      "side": "B",
+      "description": "Pin 1 cathode toward row; pin 2 anode toward switch"
+    },
+    {
+      "ref": "ENC1",
+      "uuid": "49fcd357-5dea-5936-88e9-50dd39ce449f",
+      "value": "EC11E15244B2",
+      "footprint": "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm",
+      "pins": {
+        "A": "ENC_A",
+        "B": "ENC_B",
+        "C": "GND",
+        "S1": "ENC_SW",
+        "S2": "GND",
+        "MP": "GND"
+      },
+      "manufacturer": "Alps Alpine",
+      "mpn": "EC11E15244B2",
+      "source": "https://tech.alpsalpine.com/e/products/detail/EC11E15244B2/",
+      "side": "F",
+      "description": "30 detents / 15 pulses, 20 mm flat shaft, push switch"
+    },
+    {
+      "ref": "JOY1",
+      "uuid": "c32e19c1-f364-53a4-a395-0cc8467b6f9d",
+      "value": "RKJXV1224005",
+      "footprint": "Macropad:Joystick_RKJXV1224005",
+      "pins": {
+        "X1": "3V3",
+        "X2": "JOY_X",
+        "X3": "GND",
+        "Y1": "3V3",
+        "Y2": "JOY_Y",
+        "Y3": "GND",
+        "S1": "JOY_SW",
+        "S2": "GND",
+        "MP": "GND"
+      },
+      "manufacturer": "Alps Alpine",
+      "mpn": "RKJXV1224005",
+      "source": "https://tech.alpsalpine.com/e/products/detail/RKJXV1224005/",
+      "side": "F",
+      "description": "Bare 2-axis 10k potentiometer joystick with click; custom logical pad names X/Y1..3 map to manufacturer potentiometer terminals 1..3; NRND"
+    },
+    {
+      "ref": "J1",
+      "uuid": "d8427cc1-55f9-5059-8840-f3807e42d10d",
+      "value": "TOUCH_I2C",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical",
+      "pins": {
+        "1": "3V3",
+        "2": "GND",
+        "3": "TOUCH_SDA",
+        "4": "TOUCH_SCL"
+      },
+      "manufacturer": "Samtec",
+      "mpn": "TSW-104-07-G-S",
+      "source": "https://www.samtec.com/products/tsw",
+      "side": "F",
+      "optional": true,
+      "description": "Optional 2.54 mm header; external peripherals not on PCB"
+    },
+    {
+      "ref": "J2",
+      "uuid": "a846e5c3-9593-59e5-9ea6-c9b9908c9eaf",
+      "value": "RGB_STRIP",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+      "pins": {
+        "1": "5V_USB",
+        "2": "RGB_DOUT",
+        "3": "GND"
+      },
+      "manufacturer": "Samtec",
+      "mpn": "TSW-103-07-G-S",
+      "source": "https://www.samtec.com/products/tsw",
+      "side": "F",
+      "optional": true,
+      "description": "Optional 2.54 mm header; external peripherals not on PCB"
+    },
+    {
+      "ref": "J3",
+      "uuid": "18503196-5a7f-552f-9a0f-305138b3b737",
+      "value": "MIC_I2S",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical",
+      "pins": {
+        "1": "3V3",
+        "2": "GND",
+        "3": "MIC_BCLK",
+        "4": "MIC_WS",
+        "5": "MIC_DATA",
+        "6": "GND"
+      },
+      "manufacturer": "Samtec",
+      "mpn": "TSW-106-07-G-S",
+      "source": "https://www.samtec.com/products/tsw",
+      "side": "F",
+      "optional": true,
+      "description": "Optional 2.54 mm header; external peripherals not on PCB"
+    },
+    {
+      "ref": "R1",
+      "uuid": "469082c7-8f98-53db-b423-04a122264982",
+      "value": "4.7k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "3V3",
+        "2": "TOUCH_SDA"
+      },
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-074K7L",
+      "source": "https://www.yageo.com/en/PartSearch",
+      "side": "B",
+      "optional": true,
+      "description": "I2C pull-up: DNP if peripheral already fitted with pull-ups"
+    },
+    {
+      "ref": "R2",
+      "uuid": "7e505c1b-7b9b-5499-9ecf-331b43e853a8",
+      "value": "4.7k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "3V3",
+        "2": "TOUCH_SCL"
+      },
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-074K7L",
+      "source": "https://www.yageo.com/en/PartSearch",
+      "side": "B",
+      "optional": true,
+      "description": "I2C pull-up: DNP if peripheral already fitted with pull-ups"
+    },
+    {
+      "ref": "R3",
+      "uuid": "c4e629fc-37a1-5585-9fca-0dda58042d93",
+      "value": "330",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "RGB_5V",
+        "2": "RGB_DOUT"
+      },
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-07330RL",
+      "source": "https://www.yageo.com/en/PartSearch",
+      "side": "B",
+      "optional": false,
+      "description": "RGB data series damping resistor"
+    },
+    {
+      "ref": "U2",
+      "uuid": "85a82ab7-2788-5f7e-a3e0-25503bb9635c",
+      "value": "SN74AHCT1G125DBVR",
+      "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+      "pins": {
+        "1": "GND",
+        "2": "RGB_DATA",
+        "3": "GND",
+        "4": "RGB_5V",
+        "5": "5V_USB"
+      },
+      "manufacturer": "Texas Instruments",
+      "mpn": "SN74AHCT1G125DBVR",
+      "source": "https://www.ti.com/lit/ds/symlink/sn74ahct1g125.pdf",
+      "side": "B",
+      "description": "5V TTL-input buffer; 3.3V input accepted; /OE grounded"
+    },
+    {
+      "ref": "C1",
+      "uuid": "8d092756-794a-5c41-b331-76a8397ab5f0",
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "5V_USB",
+        "2": "GND"
+      },
+      "manufacturer": "Murata",
+      "mpn": "GRM188R72A104KA35D",
+      "source": "https://media.digikey.com/pdf/Data%20Sheets/Murata%20PDFs/GRM188R72A104KA35.pdf",
+      "side": "B",
+      "description": "0603 X7R bypass adjacent to U2; stock-backed voltage-upgrade replacement for obsolete GRM188R71C104KA01D; same capacitance and PCB footprint"
+    },
+    {
+      "ref": "C2",
+      "uuid": "425ce39a-9c9e-525d-8658-68de87aedbab",
+      "value": "100uF / 16V",
+      "footprint": "Capacitor_SMD:CP_Elec_6.3x5.8",
+      "pins": {
+        "1": "5V_USB",
+        "2": "GND"
+      },
+      "manufacturer": "Panasonic",
+      "mpn": "EEE-FK1C101P",
+      "source": "https://industrial.panasonic.com/ww/products/pt/aluminum-cap-smd/models/EEEFK1C101P",
+      "side": "B",
+      "optional": true,
+      "description": "Optional polarized bulk capacitor near RGB header; 6.3mm diameter x5.8mm nominal body (6.1mm maximum seated); same PCB footprint; validate USB inrush before populating"
+    },
+    {
+      "ref": "R4",
+      "uuid": "a1a702c2-90a7-5d80-b833-c05d9167c4b9",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "RGB_DATA",
+        "2": "GND"
+      },
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-0710KL",
+      "source": "https://www.yageo.com/en/PartSearch",
+      "side": "B",
+      "description": "Pull-down holds AHCT input low during reset or high-impedance Pico GPIO state"
+    }
+  ],
+  "nets": [
+    "3V3",
+    "5V_USB",
+    "COL0",
+    "COL1",
+    "COL2",
+    "COL3",
+    "ENC_A",
+    "ENC_B",
+    "ENC_SW",
+    "GND",
+    "JOY_SW",
+    "JOY_X",
+    "JOY_Y",
+    "KEY10_A",
+    "KEY11_A",
+    "KEY12_A",
+    "KEY13_A",
+    "KEY1_A",
+    "KEY2_A",
+    "KEY3_A",
+    "KEY4_A",
+    "KEY5_A",
+    "KEY6_A",
+    "KEY7_A",
+    "KEY8_A",
+    "KEY9_A",
+    "MIC_BCLK",
+    "MIC_DATA",
+    "MIC_WS",
+    "RGB_5V",
+    "RGB_DATA",
+    "RGB_DOUT",
+    "ROW0",
+    "ROW1",
+    "ROW2",
+    "ROW3",
+    "TOUCH_SCL",
+    "TOUCH_SDA"
+  ],
+  "notes": [
+    "Null pin nets mean explicit no-connect.",
+    "Pin names X1/X2/X3 and Y1/Y2/Y3 are custom JOY1 footprint names for each potentiometer terminal 1/2/3.",
+    "Matrix direction COL -> SW pin1 -> SW pin2 -> diode pin2/anode -> diode pin1/cathode -> ROW; firmware drive rows low and read columns pull-up.",
+    "Pico W mounted on bottom carrier; no battery or charger; USB is sole intended power source.",
+    "Optional external modules are connectors only; stock and availability not checked.",
+    "74AHCT level shifter 5V output must never reach Pico GPIO."
+  ]
+}

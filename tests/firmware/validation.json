@@ -1,0 +1,14 @@
+{
+  "tested_at_utc": "2026-10-02T17:00:00Z",
+  "command": "python -m unittest discover -s tests/firmware -v",
+  "total_tests": 46,
+  "passed": 41,
+  "skipped": 5,
+  "failed": 0,
+  "skip_reason": "Cloud VM denies Unix-domain socket creation. Five real Unix-socket/pseudo-terminal integration tests remain for an unrestricted macOS/Linux host. Escalation did not enable sockets.",
+  "compileall": "passed",
+  "cli_help": "both companions passed",
+  "microbridge_reference_commit": "fcd0aba7a4fa360ca8690681bd7b049fa3682f10",
+  "not_run": ["CircuitPython on Pico W", "real matrix/encoder/ADC", "USB enumeration and HID", "Windows SendInput", "Wi-Fi radio or packet-loss behavior", "real Microbridge daemon", "RGB current and signal level", "Bluetooth"],
+  "scope": "software prototype validation; not production or hardware certification"
+}

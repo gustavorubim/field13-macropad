@@ -1,0 +1,1 @@
+CANONICAL FINAL REPORTS: DRC.rpt and DRC.json (all severities plus schematic parity), ERC.rpt and ERC.json. All show zero violations. pcb_connectivity_check.json verifies 137 pin mappings against the electrical manifest. final_sha256.json binds these reports to the saved design. history/ contains superseded intermediate reports and is not the final status.

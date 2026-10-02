@@ -1,0 +1,1232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/workspace/shared/macropad/electronics/macropad.kicad_sch</source>
+    <date>2026-10-02T13:11:30-0400</date>
+    <tool>Eeschema 9.0.2+dfsg-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Macropad 13-key carrier</title>
+        <company>Prototype - validate first article</company>
+        <rev>A</rev>
+        <date>2026-10-02</date>
+        <source>macropad.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Murata%20PDFs/GRM188R72A104KA35.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Murata</field>
+        <field name="MPN">GRM188R72A104KA35D</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet">https://media.digikey.com/pdf/Data%20Sheets/Murata%20PDFs/GRM188R72A104KA35.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Macropad" part="Capacitor" description=""/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="MPN" value="GRM188R72A104KA35D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="macropad.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8d092756-794a-5c41-b331-76a8397ab5f0</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100uF / 16V</value>
+      <footprint>Capacitor_SMD:CP_Elec_6.3x5.8</footprint>
+      <datasheet>https://industrial.panasonic.com/ww/products/pt/aluminum-cap-smd/models/EEEFK1C101P</datasheet>
+      <fields>
+        <field name="Manufacturer">Panasonic</field>
+        <field name="MPN">EEE-FK1C101P</field>
+        <field name="Footprint">Capacitor_SMD:CP_Elec_6.3x5.8</field>
+        <field name="Datasheet">https://industrial.panasonic.com/ww/products/pt/aluminum-cap-smd/models/EEEFK1C101P</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Macropad" part="Capacitor_Polar" description=""/>
+      <property name="Manufacturer" value="Panasonic"/>
+      <property name="MPN" value="EEE-FK1C101P"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="macropad.kicad_sch"/>
+      <property name="dnp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>425ce39a-9c9e-525d-8658-68de87aedbab</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds12019.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="MPN">1N4148W-7-F</field>
+        <field name="Footprint">Diode_SMD:D_SOD-123</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/ds12019.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Macropad" part="Diode" description=""/>
+      <property name="Manufacturer" value="Diodes Incorporated"/>
+      <property name="MPN" value="1N4148W-7-F"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="macropad.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>df61c304-9d6b-56f8-9e9b-a8f5fcdf503b</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds12019.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="MPN">1N4148W-7-F</field>
+        <field name="Footprint">Diode_SMD:D_SOD-123</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/ds12019.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Macropad" part="Diode" description=""/>
+      <property name="Manufacturer" value="Diodes Incorporated"/>
+      <property name="MPN" value="1N4148W-7-F"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="macropad.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>980731fc-bfbb-50d9-938a-648420a48c3a</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds12019.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="MPN">1N4148W-7-F</field>
+        <field name="Footprint">Diode_SMD:D_SOD-123</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/ds12019.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Macropad" part="Diode" description=""/>
+      <property name="Manufacturer" value="Diodes Incorporated"/>
+      <property name="MPN" value="1N4148W-7-F"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="macropad.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0a5dadba-e1df-5688-8373-ebab64d909e8</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds12019.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="MPN">1N4148W-7-F</field>
+        <field name="Footprint">Diode_SMD:D_SOD-123</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/ds12019.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Macropad" part="Diode" description=""/>
+      <property name="Manufacturer" value="Diodes Incorporated"/>
+      <property name="MPN" value="1N4148W-7-F"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="macropad.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>68e8eeea-8e4d-547f-b1c4-deb638c5aaa4</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds12019.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="MPN">1N4148W-7-F</field>
+        <field name="Footprint">Diode_SMD:D_SOD-123</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/ds12019.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Macropad" part="Diode" description=""/>
+      <property name="Manufacturer" value="Diodes Incorporated"/>
+      <property name="MPN" value="1N4148W-7-F"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="macropad.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ff5dc773-b3c1-558a-9ccd-4ee1c1f1762b</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds12019.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="MPN">1N4148W-7-F</field>
+        <field name="Footprint">Diode_SMD:D_SOD-123</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/ds12019.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Macropad" part="Diode" description=""/>
+      <property name="Manufacturer" value="Diodes Incorporated"/>
+      <property name="MPN" value="1N4148W-7-F"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="macropad.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>63d5b906-2358-5ccb-9462-b2c338cce69c</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds12019.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="MPN">1N4148W-7-F</field>
+        <field name="Footprint">Diode_SMD:D_SOD-123</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/ds12019.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Macropad" part="Diode" description=""/>
+      <property name="Manufacturer" value="Diodes Incorporated"/>
+      <property name="MPN" value="1N4148W-7-F"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="macropad.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2f6cca2d-913a-5c6a-8a6e-d4b3e6aed824</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds12019.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="MPN">1N4148W-7-F</field>
+        <field name="Footprint">Diode_SMD:D_SOD-123</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/ds12019.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Macropad" part="Diode" description=""/>
+      <property name="Manufacturer" value="Diodes Incorporated"/>
+      <property name="MPN" value="1N4148W-7-F"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="macropad.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>22009076-0012-5487-9cc9-f953f5d20070</tstamps>
+    </comp>
+    <comp ref="D9">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds12019.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="MPN">1N4148W-7-F</field>
+        <field name="Footprint">Diode_SMD:D_SOD-123</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/ds12019.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Macropad" part="Diode" description=""/>
+      <property name="Manufacturer" value="Diodes Incorporated"/>
+      <property name="MPN" value="1N4148W-7-F"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="macropad.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>23cf62e0-5e0e-550b-827a-70def09e20a6</tstamps>
+    </comp>
+    <comp ref="D10">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds12019.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="MPN">1N4148W-7-F</field>
+        <field name="Footprint">Diode_SMD:D_SOD-123</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/ds12019.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Macropad" part="Diode" description=""/>
+      <property name="Manufacturer" value="Diodes Incorporated"/>
+      <property name="MPN" value="1N4148W-7-F"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="macropad.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5d0dde51-999c-5f81-92d6-8e8733fd3a18</tstamps>
+    </comp>
+    <comp ref="D11">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds12019.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="MPN">1N4148W-7-F</field>
+        <field name="Footprint">Diode_SMD:D_SOD-123</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/ds12019.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Macropad" part="Diode" description=""/>
+      <property name="Manufacturer" value="Diodes Incorporated"/>
+      <property name="MPN" value="1N4148W-7-F"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="macropad.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8d593951-fd1d-572f-b1e8-d89718f1cc92</tstamps>
+    </comp>
+    <comp ref="D12">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds12019.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="MPN">1N4148W-7-F</field>
+        <field name="Footprint">Diode_SMD:D_SOD-123</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/ds12019.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Macropad" part="Diode" description=""/>
+      <property name="Manufacturer" value="Diodes Incorporated"/>
+      <property name="MPN" value="1N4148W-7-F"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="macropad.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c5eb5a39-fba8-5c46-aff4-fe51d039c7be</tstamps>
+    </comp>
+    <comp ref="D13">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds12019.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="MPN">1N4148W-7-F</field>
+        <field name="Footprint">Diode_SMD:D_SOD-123</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/ds12019.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Macropad" part="Diode" description=""/>
+      <property name="Manufacturer" value="Diodes Incorporated"/>
+      <property name="MPN" value="1N4148W-7-F"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="macropad.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9d97aa63-4b59-58fe-ba4e-282d962869d3</tstamps>
+    </comp>
+    <comp ref="ENC1">
+      <value>EC11E15244B2</value>
+      <footprint>Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm</footprint>
+      <datasheet>https://tech.alpsalpine.com/e/products/detail/EC11E15244B2/</datasheet>
+      <fields>
+        <field name="Manufacturer">Alps Alpine</field>
+        <field name="MPN">EC11E15244B2</field>
+        <field name="Footprint">Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm</field>
+        <field name="Datasheet">https://tech.alpsalpine.com/e/products/detail/EC11E15244B2/</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Macropad" part="Encoder" description=""/>
+      <property name="Manufacturer" value="Alps Alpine"/>
+      <property name="MPN" value="EC11E15244B2"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="macropad.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>49fcd357-5dea-5936-88e9-50dd39ce449f</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>TOUCH_I2C</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.samtec.com/products/tsw</datasheet>
+      <fields>
+        <field name="Manufacturer">Samtec</field>
+        <field name="MPN">TSW-104-07-G-S</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</field>
+        <field name="Datasheet">https://www.samtec.com/products/tsw</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Macropad" part="Header4" description=""/>
+      <property name="Manufacturer" value="Samtec"/>
+      <property name="MPN" value="TSW-104-07-G-S"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="macropad.kicad_sch"/>
+      <property name="dnp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d8427cc1-55f9-5059-8840-f3807e42d10d</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>RGB_STRIP</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.samtec.com/products/tsw</datasheet>
+      <fields>
+        <field name="Manufacturer">Samtec</field>
+        <field name="MPN">TSW-103-07-G-S</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</field>
+        <field name="Datasheet">https://www.samtec.com/products/tsw</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Macropad" part="Header3" description=""/>
+      <property name="Manufacturer" value="Samtec"/>
+      <property name="MPN" value="TSW-103-07-G-S"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="macropad.kicad_sch"/>
+      <property name="dnp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a846e5c3-9593-59e5-9ea6-c9b9908c9eaf</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>MIC_I2S</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.samtec.com/products/tsw</datasheet>
+      <fields>
+        <field name="Manufacturer">Samtec</field>
+        <field name="MPN">TSW-106-07-G-S</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical</field>
+        <field name="Datasheet">https://www.samtec.com/products/tsw</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Macropad" part="Header6" description=""/>
+      <property name="Manufacturer" value="Samtec"/>
+      <property name="MPN" value="TSW-106-07-G-S"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="macropad.kicad_sch"/>
+      <property name="dnp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>18503196-5a7f-552f-9a0f-305138b3b737</tstamps>
+    </comp>
+    <comp ref="JOY1">
+      <value>RKJXV1224005</value>
+      <footprint>Macropad:Joystick_RKJXV1224005</footprint>
+      <datasheet>https://tech.alpsalpine.com/e/products/detail/RKJXV1224005/</datasheet>
+      <fields>
+        <field name="Manufacturer">Alps Alpine</field>
+        <field name="MPN">RKJXV1224005</field>
+        <field name="Footprint">Macropad:Joystick_RKJXV1224005</field>
+        <field name="Datasheet">https://tech.alpsalpine.com/e/products/detail/RKJXV1224005/</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Macropad" part="Joystick" description=""/>
+      <property name="Manufacturer" value="Alps Alpine"/>
+      <property name="MPN" value="RKJXV1224005"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="macropad.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c32e19c1-f364-53a4-a395-0cc8467b6f9d</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.yageo.com/en/PartSearch</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="MPN">RC0603FR-074K7L</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet">https://www.yageo.com/en/PartSearch</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Macropad" part="Resistor" description=""/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="MPN" value="RC0603FR-074K7L"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="macropad.kicad_sch"/>
+      <property name="dnp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>469082c7-8f98-53db-b423-04a122264982</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.yageo.com/en/PartSearch</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="MPN">RC0603FR-074K7L</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet">https://www.yageo.com/en/PartSearch</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Macropad" part="Resistor" description=""/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="MPN" value="RC0603FR-074K7L"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="macropad.kicad_sch"/>
+      <property name="dnp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7e505c1b-7b9b-5499-9ecf-331b43e853a8</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.yageo.com/en/PartSearch</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="MPN">RC0603FR-07330RL</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet">https://www.yageo.com/en/PartSearch</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Macropad" part="Resistor" description=""/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="MPN" value="RC0603FR-07330RL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="macropad.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c4e629fc-37a1-5585-9fca-0dda58042d93</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.yageo.com/en/PartSearch</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet">https://www.yageo.com/en/PartSearch</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Macropad" part="Resistor" description=""/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="macropad.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a1a702c2-90a7-5d80-b833-c05d9167c4b9</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>MX hot-swap</value>
+      <footprint>Macropad:MX_Hotswap_CPG151101S11_16</footprint>
+      <datasheet>https://www.kailhswitch.com/Content/upload/pdf/202215927/CPG151101S11-16.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Kailh</field>
+        <field name="MPN">CPG151101S11-16</field>
+        <field name="Footprint">Macropad:MX_Hotswap_CPG151101S11_16</field>
+        <field name="Datasheet">https://www.kailhswitch.com/Content/upload/pdf/202215927/CPG151101S11-16.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Macropad" part="MX_Switch" description=""/>
+      <property name="Manufacturer" value="Kailh"/>
+      <property name="MPN" value="CPG151101S11-16"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="macropad.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8f1ff92c-0ed7-5393-a64a-105a8e8ed79c</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>MX hot-swap</value>
+      <footprint>Macropad:MX_Hotswap_CPG151101S11_16</footprint>
+      <datasheet>https://www.kailhswitch.com/Content/upload/pdf/202215927/CPG151101S11-16.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Kailh</field>
+        <field name="MPN">CPG151101S11-16</field>
+        <field name="Footprint">Macropad:MX_Hotswap_CPG151101S11_16</field>
+        <field name="Datasheet">https://www.kailhswitch.com/Content/upload/pdf/202215927/CPG151101S11-16.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Macropad" part="MX_Switch" description=""/>
+      <property name="Manufacturer" value="Kailh"/>
+      <property name="MPN" value="CPG151101S11-16"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="macropad.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ad62d506-b0db-505d-8705-0164b99e530d</tstamps>
+    </comp>
+    <comp ref="SW3">
+      <value>MX hot-swap</value>
+      <footprint>Macropad:MX_Hotswap_CPG151101S11_16</footprint>
+      <datasheet>https://www.kailhswitch.com/Content/upload/pdf/202215927/CPG151101S11-16.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Kailh</field>
+        <field name="MPN">CPG151101S11-16</field>
+        <field name="Footprint">Macropad:MX_Hotswap_CPG151101S11_16</field>
+        <field name="Datasheet">https://www.kailhswitch.com/Content/upload/pdf/202215927/CPG151101S11-16.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Macropad" part="MX_Switch" description=""/>
+      <property name="Manufacturer" value="Kailh"/>
+      <property name="MPN" value="CPG151101S11-16"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="macropad.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7ea6292f-c4aa-5ece-a70d-0d31a5d0d81e</tstamps>
+    </comp>
+    <comp ref="SW4">
+      <value>MX hot-swap</value>
+      <footprint>Macropad:MX_Hotswap_CPG151101S11_16</footprint>
+      <datasheet>https://www.kailhswitch.com/Content/upload/pdf/202215927/CPG151101S11-16.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Kailh</field>
+        <field name="MPN">CPG151101S11-16</field>
+        <field name="Footprint">Macropad:MX_Hotswap_CPG151101S11_16</field>
+        <field name="Datasheet">https://www.kailhswitch.com/Content/upload/pdf/202215927/CPG151101S11-16.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Macropad" part="MX_Switch" description=""/>
+      <property name="Manufacturer" value="Kailh"/>
+      <property name="MPN" value="CPG151101S11-16"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="macropad.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>66e507d2-2469-59c9-86bd-7a9c48688d2a</tstamps>
+    </comp>
+    <comp ref="SW5">
+      <value>MX hot-swap</value>
+      <footprint>Macropad:MX_Hotswap_CPG151101S11_16</footprint>
+      <datasheet>https://www.kailhswitch.com/Content/upload/pdf/202215927/CPG151101S11-16.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Kailh</field>
+        <field name="MPN">CPG151101S11-16</field>
+        <field name="Footprint">Macropad:MX_Hotswap_CPG151101S11_16</field>
+        <field name="Datasheet">https://www.kailhswitch.com/Content/upload/pdf/202215927/CPG151101S11-16.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Macropad" part="MX_Switch" description=""/>
+      <property name="Manufacturer" value="Kailh"/>
+      <property name="MPN" value="CPG151101S11-16"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="macropad.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4dfcba46-cb47-5952-b2e8-6b368907ea8f</tstamps>
+    </comp>
+    <comp ref="SW6">
+      <value>MX hot-swap</value>
+      <footprint>Macropad:MX_Hotswap_CPG151101S11_16</footprint>
+      <datasheet>https://www.kailhswitch.com/Content/upload/pdf/202215927/CPG151101S11-16.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Kailh</field>
+        <field name="MPN">CPG151101S11-16</field>
+        <field name="Footprint">Macropad:MX_Hotswap_CPG151101S11_16</field>
+        <field name="Datasheet">https://www.kailhswitch.com/Content/upload/pdf/202215927/CPG151101S11-16.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Macropad" part="MX_Switch" description=""/>
+      <property name="Manufacturer" value="Kailh"/>
+      <property name="MPN" value="CPG151101S11-16"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="macropad.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>06e47fa2-0886-5e68-a9b7-94b579d37aa5</tstamps>
+    </comp>
+    <comp ref="SW7">
+      <value>MX hot-swap</value>
+      <footprint>Macropad:MX_Hotswap_CPG151101S11_16</footprint>
+      <datasheet>https://www.kailhswitch.com/Content/upload/pdf/202215927/CPG151101S11-16.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Kailh</field>
+        <field name="MPN">CPG151101S11-16</field>
+        <field name="Footprint">Macropad:MX_Hotswap_CPG151101S11_16</field>
+        <field name="Datasheet">https://www.kailhswitch.com/Content/upload/pdf/202215927/CPG151101S11-16.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Macropad" part="MX_Switch" description=""/>
+      <property name="Manufacturer" value="Kailh"/>
+      <property name="MPN" value="CPG151101S11-16"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="macropad.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>35ce742f-d6b6-5412-8ec0-e65d6010e89d</tstamps>
+    </comp>
+    <comp ref="SW8">
+      <value>MX hot-swap</value>
+      <footprint>Macropad:MX_Hotswap_CPG151101S11_16</footprint>
+      <datasheet>https://www.kailhswitch.com/Content/upload/pdf/202215927/CPG151101S11-16.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Kailh</field>
+        <field name="MPN">CPG151101S11-16</field>
+        <field name="Footprint">Macropad:MX_Hotswap_CPG151101S11_16</field>
+        <field name="Datasheet">https://www.kailhswitch.com/Content/upload/pdf/202215927/CPG151101S11-16.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Macropad" part="MX_Switch" description=""/>
+      <property name="Manufacturer" value="Kailh"/>
+      <property name="MPN" value="CPG151101S11-16"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="macropad.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7a8be091-0ba2-5b36-83d4-f47214b7bbdf</tstamps>
+    </comp>
+    <comp ref="SW9">
+      <value>MX hot-swap</value>
+      <footprint>Macropad:MX_Hotswap_CPG151101S11_16</footprint>
+      <datasheet>https://www.kailhswitch.com/Content/upload/pdf/202215927/CPG151101S11-16.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Kailh</field>
+        <field name="MPN">CPG151101S11-16</field>
+        <field name="Footprint">Macropad:MX_Hotswap_CPG151101S11_16</field>
+        <field name="Datasheet">https://www.kailhswitch.com/Content/upload/pdf/202215927/CPG151101S11-16.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Macropad" part="MX_Switch" description=""/>
+      <property name="Manufacturer" value="Kailh"/>
+      <property name="MPN" value="CPG151101S11-16"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="macropad.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4ddcc169-97ff-5cdc-92fd-1c2640b0d00e</tstamps>
+    </comp>
+    <comp ref="SW10">
+      <value>MX hot-swap</value>
+      <footprint>Macropad:MX_Hotswap_CPG151101S11_16</footprint>
+      <datasheet>https://www.kailhswitch.com/Content/upload/pdf/202215927/CPG151101S11-16.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Kailh</field>
+        <field name="MPN">CPG151101S11-16</field>
+        <field name="Footprint">Macropad:MX_Hotswap_CPG151101S11_16</field>
+        <field name="Datasheet">https://www.kailhswitch.com/Content/upload/pdf/202215927/CPG151101S11-16.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Macropad" part="MX_Switch" description=""/>
+      <property name="Manufacturer" value="Kailh"/>
+      <property name="MPN" value="CPG151101S11-16"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="macropad.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7890d28b-459e-5bff-85df-68a52461861c</tstamps>
+    </comp>
+    <comp ref="SW11">
+      <value>MX hot-swap</value>
+      <footprint>Macropad:MX_Hotswap_CPG151101S11_16</footprint>
+      <datasheet>https://www.kailhswitch.com/Content/upload/pdf/202215927/CPG151101S11-16.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Kailh</field>
+        <field name="MPN">CPG151101S11-16</field>
+        <field name="Footprint">Macropad:MX_Hotswap_CPG151101S11_16</field>
+        <field name="Datasheet">https://www.kailhswitch.com/Content/upload/pdf/202215927/CPG151101S11-16.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Macropad" part="MX_Switch" description=""/>
+      <property name="Manufacturer" value="Kailh"/>
+      <property name="MPN" value="CPG151101S11-16"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="macropad.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a018a1e4-3ae3-57f7-9124-7dbde8a2ced6</tstamps>
+    </comp>
+    <comp ref="SW12">
+      <value>MX hot-swap</value>
+      <footprint>Macropad:MX_Hotswap_CPG151101S11_16</footprint>
+      <datasheet>https://www.kailhswitch.com/Content/upload/pdf/202215927/CPG151101S11-16.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Kailh</field>
+        <field name="MPN">CPG151101S11-16</field>
+        <field name="Footprint">Macropad:MX_Hotswap_CPG151101S11_16</field>
+        <field name="Datasheet">https://www.kailhswitch.com/Content/upload/pdf/202215927/CPG151101S11-16.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Macropad" part="MX_Switch" description=""/>
+      <property name="Manufacturer" value="Kailh"/>
+      <property name="MPN" value="CPG151101S11-16"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="macropad.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aee51fb2-830a-56ec-bf82-d7a0432ee4e6</tstamps>
+    </comp>
+    <comp ref="SW13">
+      <value>MX hot-swap</value>
+      <footprint>Macropad:MX_Hotswap_CPG151101S11_16</footprint>
+      <datasheet>https://www.kailhswitch.com/Content/upload/pdf/202215927/CPG151101S11-16.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Kailh</field>
+        <field name="MPN">CPG151101S11-16</field>
+        <field name="Footprint">Macropad:MX_Hotswap_CPG151101S11_16</field>
+        <field name="Datasheet">https://www.kailhswitch.com/Content/upload/pdf/202215927/CPG151101S11-16.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Macropad" part="MX_Switch" description=""/>
+      <property name="Manufacturer" value="Kailh"/>
+      <property name="MPN" value="CPG151101S11-16"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="macropad.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5d43ff08-3028-544d-bc23-ad898c14a0a7</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>Raspberry Pi Pico W</value>
+      <footprint>Macropad:PicoW_Castellated</footprint>
+      <datasheet>https://datasheets.raspberrypi.com/picow/pico-w-datasheet.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Raspberry Pi</field>
+        <field name="MPN">SC0918</field>
+        <field name="Footprint">Macropad:PicoW_Castellated</field>
+        <field name="Datasheet">https://datasheets.raspberrypi.com/picow/pico-w-datasheet.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Macropad" part="PicoW" description=""/>
+      <property name="Manufacturer" value="Raspberry Pi"/>
+      <property name="MPN" value="SC0918"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="macropad.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1108d271-9752-565d-87b6-cad3c5b1b0fe</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>SN74AHCT1G125DBVR</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/sn74ahct1g125.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="MPN">SN74AHCT1G125DBVR</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/sn74ahct1g125.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Macropad" part="AHCT125" description=""/>
+      <property name="Manufacturer" value="Texas Instruments"/>
+      <property name="MPN" value="SN74AHCT1G125DBVR"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="macropad.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>85a82ab7-2788-5f7e-a3e0-25503bb9635c</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Macropad" part="AHCT125">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AHCT125</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="~{OE}" type="input"/>
+        <pin num="2" name="A" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="Y" type="tri_state"/>
+        <pin num="5" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Macropad" part="Capacitor">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Capacitor</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Macropad" part="Capacitor_Polar">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Capacitor_Polar</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Macropad" part="Diode">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Diode</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Macropad" part="Encoder">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Encoder</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="B" name="B" type="passive"/>
+        <pin num="C" name="COM" type="passive"/>
+        <pin num="MP" name="FRAME" type="passive"/>
+        <pin num="S1" name="SW" type="passive"/>
+        <pin num="S2" name="SW" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Macropad" part="Header3">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Header3</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Macropad" part="Header4">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Header4</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Macropad" part="Header6">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Header6</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Macropad" part="Joystick">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Joystick</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="MP" name="FRAME" type="passive"/>
+        <pin num="S1" name="SW" type="passive"/>
+        <pin num="S2" name="SW" type="passive"/>
+        <pin num="X1" name="X:1" type="passive"/>
+        <pin num="X2" name="X:2" type="passive"/>
+        <pin num="X3" name="X:3" type="passive"/>
+        <pin num="Y1" name="Y:1" type="passive"/>
+        <pin num="Y2" name="Y:2" type="passive"/>
+        <pin num="Y3" name="Y:3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Macropad" part="MX_Switch">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MX_Switch</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Macropad" part="PicoW">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PicoW</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="GP0" type="bidirectional"/>
+        <pin num="2" name="GP1" type="bidirectional"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="GP2" type="bidirectional"/>
+        <pin num="5" name="GP3" type="bidirectional"/>
+        <pin num="6" name="GP4" type="bidirectional"/>
+        <pin num="7" name="GP5" type="bidirectional"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="GP6" type="bidirectional"/>
+        <pin num="10" name="GP7" type="bidirectional"/>
+        <pin num="11" name="GP8" type="bidirectional"/>
+        <pin num="12" name="GP9" type="bidirectional"/>
+        <pin num="13" name="GND" type="power_in"/>
+        <pin num="14" name="GP10" type="bidirectional"/>
+        <pin num="15" name="GP11" type="bidirectional"/>
+        <pin num="16" name="GP12" type="bidirectional"/>
+        <pin num="17" name="GP13" type="bidirectional"/>
+        <pin num="18" name="GND" type="power_in"/>
+        <pin num="19" name="GP14" type="bidirectional"/>
+        <pin num="20" name="GP15" type="bidirectional"/>
+        <pin num="21" name="GP16" type="bidirectional"/>
+        <pin num="22" name="GP17" type="bidirectional"/>
+        <pin num="23" name="GND" type="power_in"/>
+        <pin num="24" name="GP18" type="bidirectional"/>
+        <pin num="25" name="GP19" type="bidirectional"/>
+        <pin num="26" name="GP20" type="bidirectional"/>
+        <pin num="27" name="GP21" type="bidirectional"/>
+        <pin num="28" name="GND" type="power_in"/>
+        <pin num="29" name="GP22" type="bidirectional"/>
+        <pin num="30" name="RUN" type="input"/>
+        <pin num="31" name="GP26/ADC0" type="bidirectional"/>
+        <pin num="32" name="GP27/ADC1" type="bidirectional"/>
+        <pin num="33" name="AGND" type="power_in"/>
+        <pin num="34" name="GP28/ADC2" type="bidirectional"/>
+        <pin num="35" name="ADC_VREF" type="passive"/>
+        <pin num="36" name="3V3_OUT" type="power_out"/>
+        <pin num="37" name="3V3_EN" type="input"/>
+        <pin num="38" name="GND" type="power_in"/>
+        <pin num="39" name="VSYS" type="power_in"/>
+        <pin num="40" name="VBUS" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Macropad" part="Resistor">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Resistor</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Macropad">
+      <uri>/workspace/shared/macropad/electronics/libraries/symbols/Macropad.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/3V3" class="Default">
+      <node ref="J1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="JOY1" pin="X1" pinfunction="X:1" pintype="passive"/>
+      <node ref="JOY1" pin="Y1" pinfunction="Y:1" pintype="passive"/>
+      <node ref="R1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="36" pinfunction="3V3_OUT" pintype="power_out"/>
+    </net>
+    <net code="2" name="/5V_USB" class="Default">
+      <node ref="C1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C2" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="40" pinfunction="VBUS" pintype="power_out"/>
+      <node ref="U2" pin="5" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="3" name="/COL0" class="Default">
+      <node ref="SW11" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="GP4" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="/COL1" class="Default">
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW12" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="GP5" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/COL2" class="Default">
+      <node ref="SW13" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW9" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="GP6" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/COL3" class="Default">
+      <node ref="SW10" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="GP7" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/ENC_A" class="Default">
+      <node ref="ENC1" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="GP8" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/ENC_B" class="Default">
+      <node ref="ENC1" pin="B" pinfunction="B" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="GP9" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="/ENC_SW" class="Default">
+      <node ref="ENC1" pin="S1" pinfunction="SW" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="GP10" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="/GND" class="Default">
+      <node ref="C1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C2" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="ENC1" pin="C" pinfunction="COM" pintype="passive"/>
+      <node ref="ENC1" pin="MP" pinfunction="FRAME" pintype="passive"/>
+      <node ref="ENC1" pin="S2" pinfunction="SW" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J3" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="JOY1" pin="MP" pinfunction="FRAME" pintype="passive"/>
+      <node ref="JOY1" pin="S2" pinfunction="SW" pintype="passive"/>
+      <node ref="JOY1" pin="X3" pinfunction="X:3" pintype="passive"/>
+      <node ref="JOY1" pin="Y3" pinfunction="Y:3" pintype="passive"/>
+      <node ref="R4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="18" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="23" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="28" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="33" pinfunction="AGND" pintype="power_in"/>
+      <node ref="U1" pin="38" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="1" pinfunction="~{OE}" pintype="input"/>
+      <node ref="U2" pin="3" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="11" name="/JOY_SW" class="Default">
+      <node ref="JOY1" pin="S1" pinfunction="SW" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="GP11" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="/JOY_X" class="Default">
+      <node ref="JOY1" pin="X2" pinfunction="X:2" pintype="passive"/>
+      <node ref="U1" pin="31" pinfunction="GP26/ADC0" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="/JOY_Y" class="Default">
+      <node ref="JOY1" pin="Y2" pinfunction="Y:2" pintype="passive"/>
+      <node ref="U1" pin="32" pinfunction="GP27/ADC1" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="/KEY1_A" class="Default">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="15" name="/KEY2_A" class="Default">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="16" name="/KEY3_A" class="Default">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW3" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="17" name="/KEY4_A" class="Default">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW4" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="18" name="/KEY5_A" class="Default">
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW5" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="19" name="/KEY6_A" class="Default">
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW6" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="20" name="/KEY7_A" class="Default">
+      <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW7" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="21" name="/KEY8_A" class="Default">
+      <node ref="D8" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW8" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="22" name="/KEY9_A" class="Default">
+      <node ref="D9" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW9" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="23" name="/KEY10_A" class="Default">
+      <node ref="D10" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW10" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="24" name="/KEY11_A" class="Default">
+      <node ref="D11" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW11" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="25" name="/KEY12_A" class="Default">
+      <node ref="D12" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW12" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="26" name="/KEY13_A" class="Default">
+      <node ref="D13" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW13" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="27" name="/MIC_BCLK" class="Default">
+      <node ref="J3" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="U1" pin="21" pinfunction="GP16" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="/MIC_DATA" class="Default">
+      <node ref="J3" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="U1" pin="24" pinfunction="GP18" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="/MIC_WS" class="Default">
+      <node ref="J3" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="U1" pin="22" pinfunction="GP17" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="/RGB_5V" class="Default">
+      <node ref="R3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="Y" pintype="tri_state"/>
+    </net>
+    <net code="31" name="/RGB_DATA" class="Default">
+      <node ref="R4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="20" pinfunction="GP15" pintype="bidirectional"/>
+      <node ref="U2" pin="2" pinfunction="A" pintype="input"/>
+    </net>
+    <net code="32" name="/RGB_DOUT" class="Default">
+      <node ref="J2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R3" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="33" name="/ROW0" class="Default">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="GP0" pintype="bidirectional"/>
+    </net>
+    <net code="34" name="/ROW1" class="Default">
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="GP1" pintype="bidirectional"/>
+    </net>
+    <net code="35" name="/ROW2" class="Default">
+      <node ref="D10" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D8" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D9" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="GP2" pintype="bidirectional"/>
+    </net>
+    <net code="36" name="/ROW3" class="Default">
+      <node ref="D11" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D12" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D13" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="GP3" pintype="bidirectional"/>
+    </net>
+    <net code="37" name="/TOUCH_SCL" class="Default">
+      <node ref="J1" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="R2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="17" pinfunction="GP13" pintype="bidirectional"/>
+    </net>
+    <net code="38" name="/TOUCH_SDA" class="Default">
+      <node ref="J1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="R1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="GP12" pintype="bidirectional"/>
+    </net>
+    <net code="39" name="unconnected-(U1-3V3_EN-Pad37)" class="Default">
+      <node ref="U1" pin="37" pinfunction="3V3_EN" pintype="input+no_connect"/>
+    </net>
+    <net code="40" name="unconnected-(U1-ADC_VREF-Pad35)" class="Default">
+      <node ref="U1" pin="35" pinfunction="ADC_VREF" pintype="passive+no_connect"/>
+    </net>
+    <net code="41" name="unconnected-(U1-GP14-Pad19)" class="Default">
+      <node ref="U1" pin="19" pinfunction="GP14" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(U1-GP19-Pad25)" class="Default">
+      <node ref="U1" pin="25" pinfunction="GP19" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="43" name="unconnected-(U1-GP20-Pad26)" class="Default">
+      <node ref="U1" pin="26" pinfunction="GP20" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="44" name="unconnected-(U1-GP21-Pad27)" class="Default">
+      <node ref="U1" pin="27" pinfunction="GP21" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="45" name="unconnected-(U1-GP22-Pad29)" class="Default">
+      <node ref="U1" pin="29" pinfunction="GP22" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="46" name="unconnected-(U1-GP28/ADC2-Pad34)" class="Default">
+      <node ref="U1" pin="34" pinfunction="GP28/ADC2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="47" name="unconnected-(U1-RUN-Pad30)" class="Default">
+      <node ref="U1" pin="30" pinfunction="RUN" pintype="input+no_connect"/>
+    </net>
+    <net code="48" name="unconnected-(U1-VSYS-Pad39)" class="Default">
+      <node ref="U1" pin="39" pinfunction="VSYS" pintype="power_in+no_connect"/>
+    </net>
+  </nets>
+</export>

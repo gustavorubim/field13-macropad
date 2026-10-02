@@ -1,0 +1,264 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "Switch 1",
+      "passed": true,
+      "pcb_xy": [
+        44.0,
+        37.0
+      ],
+      "cad_xy": [
+        44,
+        37
+      ]
+    },
+    {
+      "check": "Switch 2",
+      "passed": true,
+      "pcb_xy": [
+        64.0,
+        37.0
+      ],
+      "cad_xy": [
+        64,
+        37
+      ]
+    },
+    {
+      "check": "Switch 3",
+      "passed": true,
+      "pcb_xy": [
+        24.0,
+        59.0
+      ],
+      "cad_xy": [
+        24,
+        59
+      ]
+    },
+    {
+      "check": "Switch 4",
+      "passed": true,
+      "pcb_xy": [
+        44.0,
+        59.0
+      ],
+      "cad_xy": [
+        44,
+        59
+      ]
+    },
+    {
+      "check": "Switch 5",
+      "passed": true,
+      "pcb_xy": [
+        64.0,
+        59.0
+      ],
+      "cad_xy": [
+        64,
+        59
+      ]
+    },
+    {
+      "check": "Switch 6",
+      "passed": true,
+      "pcb_xy": [
+        84.0,
+        59.0
+      ],
+      "cad_xy": [
+        84,
+        59
+      ]
+    },
+    {
+      "check": "Switch 7",
+      "passed": true,
+      "pcb_xy": [
+        24.0,
+        79.0
+      ],
+      "cad_xy": [
+        24,
+        79
+      ]
+    },
+    {
+      "check": "Switch 8",
+      "passed": true,
+      "pcb_xy": [
+        44.0,
+        79.0
+      ],
+      "cad_xy": [
+        44,
+        79
+      ]
+    },
+    {
+      "check": "Switch 9",
+      "passed": true,
+      "pcb_xy": [
+        64.0,
+        79.0
+      ],
+      "cad_xy": [
+        64,
+        79
+      ]
+    },
+    {
+      "check": "Switch 10",
+      "passed": true,
+      "pcb_xy": [
+        84.0,
+        79.0
+      ],
+      "cad_xy": [
+        84,
+        79
+      ]
+    },
+    {
+      "check": "Switch 11",
+      "passed": true,
+      "pcb_xy": [
+        24.0,
+        99.0
+      ],
+      "cad_xy": [
+        24,
+        99
+      ]
+    },
+    {
+      "check": "Switch 12",
+      "passed": true,
+      "pcb_xy": [
+        44.0,
+        99.0
+      ],
+      "cad_xy": [
+        44,
+        99
+      ]
+    },
+    {
+      "check": "Switch 13",
+      "passed": true,
+      "pcb_xy": [
+        64.0,
+        99.0
+      ],
+      "cad_xy": [
+        64,
+        99
+      ]
+    },
+    {
+      "check": "Mount 1",
+      "passed": true,
+      "pcb_xy": [
+        9.0,
+        9.0
+      ],
+      "cad_xy": [
+        9,
+        9
+      ]
+    },
+    {
+      "check": "Mount 2",
+      "passed": true,
+      "pcb_xy": [
+        99.0,
+        9.0
+      ],
+      "cad_xy": [
+        99,
+        9
+      ]
+    },
+    {
+      "check": "Mount 3",
+      "passed": true,
+      "pcb_xy": [
+        9.0,
+        63.0
+      ],
+      "cad_xy": [
+        9,
+        63
+      ]
+    },
+    {
+      "check": "Mount 4",
+      "passed": true,
+      "pcb_xy": [
+        99.0,
+        63.0
+      ],
+      "cad_xy": [
+        99,
+        63
+      ]
+    },
+    {
+      "check": "Mount 5",
+      "passed": true,
+      "pcb_xy": [
+        9.0,
+        111.0
+      ],
+      "cad_xy": [
+        9,
+        111
+      ]
+    },
+    {
+      "check": "Mount 6",
+      "passed": true,
+      "pcb_xy": [
+        99.0,
+        111.0
+      ],
+      "cad_xy": [
+        99,
+        111
+      ]
+    },
+    {
+      "check": "Board outline envelope",
+      "passed": true,
+      "pcb_xy_bounds": [
+        3.975,
+        3.475,
+        104.025,
+        116.025
+      ],
+      "cad_xy_bounds": [
+        4.0,
+        3.5,
+        104.0,
+        116.0
+      ]
+    },
+    {
+      "check": "Every CAD part valid",
+      "passed": true,
+      "part_count": 73
+    },
+    {
+      "check": "Every named clearance passes",
+      "passed": true,
+      "check_count": 42
+    },
+    {
+      "check": "13 hot-swap footprints",
+      "passed": true
+    }
+  ],
+  "not_tested": "Physical fit, component envelope accuracy, hardware, RF, input injection"
+}

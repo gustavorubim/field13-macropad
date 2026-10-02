@@ -1,0 +1,7 @@
+# Copy to CIRCUITPY/settings.toml yourself. Never commit actual credentials.
+# Wi-Fi HID mode is explicit: set TRANSPORT = "wifi" in config.py.
+CIRCUITPY_WIFI_SSID = "YOUR_2_4_GHZ_SSID"
+CIRCUITPY_WIFI_PASSWORD = "YOUR_WIFI_PASSWORD"
+ARC13_HOST = "192.168.1.10"
+ARC13_PORT = "41413"
+ARC13_PSK = "REPLACE_WITH_PRIVATE_RANDOM_64_HEX_CHARACTERS"

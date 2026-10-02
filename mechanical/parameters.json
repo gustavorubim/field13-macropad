@@ -1,0 +1,149 @@
+{
+  "name": "FIELD 13",
+  "revision": "A0-prototype",
+  "units": "mm",
+  "width": 108.0,
+  "depth": 122.0,
+  "corner_radius": 8.0,
+  "wall": 2.4,
+  "floor": 2.4,
+  "pcb_z": 12.0,
+  "pcb_thickness": 1.6,
+  "plate_z": 17.2,
+  "plate_thickness": 1.5,
+  "plate_clearance": 0.25,
+  "switch_cutout": 14.1,
+  "insert_hole": 3.8,
+  "insert_depth": 3.3,
+  "mounts": [
+    [
+      9,
+      9
+    ],
+    [
+      99,
+      9
+    ],
+    [
+      9,
+      63
+    ],
+    [
+      99,
+      63
+    ],
+    [
+      9,
+      111
+    ],
+    [
+      99,
+      111
+    ]
+  ],
+  "keys": [
+    [
+      44,
+      37
+    ],
+    [
+      64,
+      37
+    ],
+    [
+      24,
+      59
+    ],
+    [
+      44,
+      59
+    ],
+    [
+      64,
+      59
+    ],
+    [
+      84,
+      59
+    ],
+    [
+      24,
+      79
+    ],
+    [
+      44,
+      79
+    ],
+    [
+      64,
+      79
+    ],
+    [
+      84,
+      79
+    ],
+    [
+      24,
+      99
+    ],
+    [
+      44,
+      99
+    ],
+    [
+      64,
+      99
+    ]
+  ],
+  "encoder": [
+    24,
+    37
+  ],
+  "joystick": [
+    84,
+    37
+  ],
+  "touch": [
+    84,
+    99
+  ],
+  "pico_outline": [
+    42,
+    5,
+    51,
+    21
+  ],
+  "antenna_cutout": [
+    84,
+    8.5,
+    9,
+    14
+  ],
+  "usb_center_x": 25.0,
+  "usb_center_z": 8.0,
+  "usb_mount_pitch": 17.3,
+  "usb_opening_width": 10.8,
+  "usb_opening_height": 5.4,
+  "foot_centers": [
+    [
+      14,
+      17
+    ],
+    [
+      94,
+      17
+    ],
+    [
+      14,
+      105
+    ],
+    [
+      94,
+      105
+    ]
+  ],
+  "foot_diameter": 10.0,
+  "print_clearance_note": "Initial values only. Print fit coupon with chosen printer/nozzle/material before full enclosure.",
+  "insert_od": 4.2,
+  "insert_length": 3.0
+}

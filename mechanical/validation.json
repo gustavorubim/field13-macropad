@@ -1,0 +1,265 @@
+{
+  "revision": "A0-prototype",
+  "all_solids_valid": true,
+  "parts": 73,
+  "critical_clearance_checks": [
+    {
+      "a": "_1_Base_shell",
+      "b": "_2_Main_PCB_envelope",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "a": "_1_Base_shell",
+      "b": "_3_Switch_plate",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "a": "_3_Switch_plate",
+      "b": "_2_Main_PCB_envelope",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "a": "_1_Base_shell",
+      "b": "Hotswap_01",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "a": "_1_Base_shell",
+      "b": "Hotswap_02",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "a": "_1_Base_shell",
+      "b": "Hotswap_03",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "a": "_1_Base_shell",
+      "b": "Hotswap_04",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "a": "_1_Base_shell",
+      "b": "Hotswap_05",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "a": "_1_Base_shell",
+      "b": "Hotswap_06",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "a": "_1_Base_shell",
+      "b": "Hotswap_07",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "a": "_1_Base_shell",
+      "b": "Hotswap_08",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "a": "_1_Base_shell",
+      "b": "Hotswap_09",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "a": "_1_Base_shell",
+      "b": "Hotswap_10",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "a": "_1_Base_shell",
+      "b": "Hotswap_11",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "a": "_1_Base_shell",
+      "b": "Hotswap_12",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "a": "_1_Base_shell",
+      "b": "Hotswap_13",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "a": "_1_Base_shell",
+      "b": "Encoder_body",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "a": "_1_Base_shell",
+      "b": "Joystick_body",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "a": "_1_Base_shell",
+      "b": "Pico_W_board",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "a": "_1_Base_shell",
+      "b": "Pico_RF_shield",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "a": "_1_Base_shell",
+      "b": "Rear_USB_microB_panel",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "a": "_3_Switch_plate",
+      "b": "Hotswap_01",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "a": "_3_Switch_plate",
+      "b": "Hotswap_02",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "a": "_3_Switch_plate",
+      "b": "Hotswap_03",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "a": "_3_Switch_plate",
+      "b": "Hotswap_04",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "a": "_3_Switch_plate",
+      "b": "Hotswap_05",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "a": "_3_Switch_plate",
+      "b": "Hotswap_06",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "a": "_3_Switch_plate",
+      "b": "Hotswap_07",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "a": "_3_Switch_plate",
+      "b": "Hotswap_08",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "a": "_3_Switch_plate",
+      "b": "Hotswap_09",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "a": "_3_Switch_plate",
+      "b": "Hotswap_10",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "a": "_3_Switch_plate",
+      "b": "Hotswap_11",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "a": "_3_Switch_plate",
+      "b": "Hotswap_12",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "a": "_3_Switch_plate",
+      "b": "Hotswap_13",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "a": "_3_Switch_plate",
+      "b": "Encoder_body",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "a": "_3_Switch_plate",
+      "b": "Joystick_body",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "a": "_3_Switch_plate",
+      "b": "Pico_W_board",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "a": "_3_Switch_plate",
+      "b": "Pico_RF_shield",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "a": "_3_Switch_plate",
+      "b": "Rear_USB_microB_panel",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "check": "13 keys",
+      "pass": true
+    },
+    {
+      "check": "MX plate thickness 1.5 mm",
+      "value": 1.5,
+      "pass": true
+    },
+    {
+      "check": "PCB top to plate top 5.1 mm",
+      "value": 5.1,
+      "pass": true
+    }
+  ],
+  "hardware_validation": "NOT RUN",
+  "fabrication_status": "PROTOTYPE / NOT FABRICATION RELEASED",
+  "unverified": [
+    "Actual keycap/switch/joystick/encoder fit; joystick body offset approximate from manufacturer drawing",
+    "Panel cable body envelope and flexible cable bend radius",
+    "Chosen printer/nozzle/material dimensional compensation",
+    "Heat-set insert installation fit in selected print material",
+    "Final PCB footprints and electrical DRC",
+    "RF performance, audio, wireless HID"
+  ]
+}
